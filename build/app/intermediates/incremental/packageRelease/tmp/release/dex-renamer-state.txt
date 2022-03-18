@@ -1,4 +1,0 @@
-#Mon Mar 14 02:19:03 PKT 2022
-base.0=E\:\\on going projects\\QuranApp\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
