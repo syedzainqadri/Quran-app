@@ -41,7 +41,7 @@ dependencies:
   circular_countdown_timer: ^0.2.0
   fluttertoast: ^8.0.8
   flutter_svg: ^1.0.0
-  firebase_database: ^9.0.5
+  firebase_database:
   firebase_core: ^1.11.0
   firebase_storage: ^10.2.5
   cached_network_image: ^3.2.0
