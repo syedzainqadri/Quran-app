@@ -1,0 +1,353 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+MERGED from [:webview_media] E:\on going projects\QuranApp\build\webview_media\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_database] E:\on going projects\QuranApp\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] E:\on going projects\QuranApp\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] E:\on going projects\QuranApp\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:2:1-15:12
+MERGED from [:audioplayers] E:\on going projects\QuranApp\build\audioplayers\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] E:\on going projects\QuranApp\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:fluttertoast] E:\on going projects\QuranApp\build\fluttertoast\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] E:\on going projects\QuranApp\build\path_provider_android\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\5a198d60995c6a1515a28223fd021380\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.webkit:webkit:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\53b285ee86f81788b72649f4dc06ad21\transformed\webkit-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Syed\.gradle\caches\transforms-3\341b3342030c14e6fc43b82ec3c81cdc\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\f494937105857447aa5d5bcad34d15d9\transformed\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Syed\.gradle\caches\transforms-3\1f683c6ac162b624f55d332d08fc7038\transformed\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Syed\.gradle\caches\transforms-3\eb5c287645a75221743fac9be7c0a295\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Syed\.gradle\caches\transforms-3\4d23155eccc2af9a65ade12f43ff5291\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Syed\.gradle\caches\transforms-3\4fe8296e024f622dd7ed11812ba52da6\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\b465139c232c14c5893be2478d66d0e8\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\85208037e3141ba9369b4180f3778433\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\a5f4a05c1bd92332c8891e87d0322886\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\150a4b4962cef9f1e7c527b83b66b8ce\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\619f7f6662634eacf5bbeb27d3c22bec\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\e7b0c32dc2d7bc6b7b7f611659520564\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\5cf9a775afa7da7183ff28a36b11c54d\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\55c401c322f98c692a4e42c8a9ec0de0\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\6d525e153029dfc6514fd8a6fb2e464d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\2a3f1ca47b589dba446b232d29fc8e62\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\bd5a07019a601cc6bd8a525848a98c0d\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\Syed\.gradle\caches\transforms-3\4d0fee22e6910f8191380825b705728b\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Syed\.gradle\caches\transforms-3\0cbe16c238cffc2587a7f7d8faea21e0\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\f5fbdecb5b318070a84b422ab3c19de4\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\cac7d4862a582f644c903bbf1c3b9310\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\0148f9e9e20a5680d2e915aa45c424b5\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\94f9e4283aada1732643e03d237fecb6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\ada1d6e0c414deea21ce9ea819e855ee\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Syed\.gradle\caches\transforms-3\8bf8b4cf539d3400ee92adf8d22c8d79\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\1b46ade955867e88fa47bc74961e2b73\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\5b722c9deb4198f723fe061b4d32e5f5\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Syed\.gradle\caches\transforms-3\7437a8aa6f0449a5562219e2247a47fe\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\8a5b5e47faa7ce4c9dd19d074c3d2b1c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\c5d2f1d0a5e40a20581f02387e5fdcc6\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+	package
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:2:5-35
+		INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:3:4-40:19
+MERGED from [:firebase_database] E:\on going projects\QuranApp\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_database] E:\on going projects\QuranApp\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] E:\on going projects\QuranApp\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] E:\on going projects\QuranApp\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] E:\on going projects\QuranApp\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] E:\on going projects\QuranApp\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:7:5-13:19
+MERGED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:8:5-19:19
+MERGED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:8:5-19:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Syed\.gradle\caches\transforms-3\1f683c6ac162b624f55d332d08fc7038\transformed\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Syed\.gradle\caches\transforms-3\1f683c6ac162b624f55d332d08fc7038\transformed\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Syed\.gradle\caches\transforms-3\eb5c287645a75221743fac9be7c0a295\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Syed\.gradle\caches\transforms-3\eb5c287645a75221743fac9be7c0a295\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Syed\.gradle\caches\transforms-3\4fe8296e024f622dd7ed11812ba52da6\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Syed\.gradle\caches\transforms-3\4fe8296e024f622dd7ed11812ba52da6\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\b465139c232c14c5893be2478d66d0e8\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\b465139c232c14c5893be2478d66d0e8\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\85208037e3141ba9369b4180f3778433\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\85208037e3141ba9369b4180f3778433\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\Syed\.gradle\caches\transforms-3\4d0fee22e6910f8191380825b705728b\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\Syed\.gradle\caches\transforms-3\4d0fee22e6910f8191380825b705728b\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Syed\.gradle\caches\transforms-3\8bf8b4cf539d3400ee92adf8d22c8d79\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Syed\.gradle\caches\transforms-3\8bf8b4cf539d3400ee92adf8d22c8d79\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\Syed\.gradle\caches\transforms-3\4d0fee22e6910f8191380825b705728b\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:4:9-33
+	android:icon
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:5:9-43
+activity#com.example.quranapp.MainActivity
+ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:6:9-34:20
+	android:launchMode
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:8:13-43
+	android:hardwareAccelerated
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:11:13-47
+	android:windowSoftInputMode
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:12:13-55
+	android:configChanges
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:10:13-163
+	android:theme
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:9:13-47
+	android:name
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:7:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:17:13-20:17
+	android:resource
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:19:15-52
+	android:name
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:18:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:26:13-29:17
+	android:resource
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:28:15-61
+	android:name
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:27:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:32:27-74
+meta-data#flutterEmbedding
+ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:37:9-39:33
+	android:value
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:39:13-30
+	android:name
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml:38:13-44
+uses-sdk
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+MERGED from [:webview_media] E:\on going projects\QuranApp\build\webview_media\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:webview_media] E:\on going projects\QuranApp\build\webview_media\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] E:\on going projects\QuranApp\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_database] E:\on going projects\QuranApp\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] E:\on going projects\QuranApp\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] E:\on going projects\QuranApp\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] E:\on going projects\QuranApp\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] E:\on going projects\QuranApp\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:audioplayers] E:\on going projects\QuranApp\build\audioplayers\intermediates\library_manifest\release\AndroidManifest.xml:7:5-44
+MERGED from [:audioplayers] E:\on going projects\QuranApp\build\audioplayers\intermediates\library_manifest\release\AndroidManifest.xml:7:5-44
+MERGED from [:sqflite] E:\on going projects\QuranApp\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] E:\on going projects\QuranApp\build\sqflite\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] E:\on going projects\QuranApp\build\fluttertoast\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] E:\on going projects\QuranApp\build\fluttertoast\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] E:\on going projects\QuranApp\build\path_provider_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] E:\on going projects\QuranApp\build\path_provider_android\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:6:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\5a198d60995c6a1515a28223fd021380\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\5a198d60995c6a1515a28223fd021380\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.webkit:webkit:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\53b285ee86f81788b72649f4dc06ad21\transformed\webkit-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\53b285ee86f81788b72649f4dc06ad21\transformed\webkit-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Syed\.gradle\caches\transforms-3\341b3342030c14e6fc43b82ec3c81cdc\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\Syed\.gradle\caches\transforms-3\341b3342030c14e6fc43b82ec3c81cdc\transformed\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\f494937105857447aa5d5bcad34d15d9\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\f494937105857447aa5d5bcad34d15d9\transformed\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Syed\.gradle\caches\transforms-3\1f683c6ac162b624f55d332d08fc7038\transformed\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\Syed\.gradle\caches\transforms-3\1f683c6ac162b624f55d332d08fc7038\transformed\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Syed\.gradle\caches\transforms-3\eb5c287645a75221743fac9be7c0a295\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Syed\.gradle\caches\transforms-3\eb5c287645a75221743fac9be7c0a295\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Syed\.gradle\caches\transforms-3\4d23155eccc2af9a65ade12f43ff5291\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Syed\.gradle\caches\transforms-3\4d23155eccc2af9a65ade12f43ff5291\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Syed\.gradle\caches\transforms-3\4fe8296e024f622dd7ed11812ba52da6\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Syed\.gradle\caches\transforms-3\4fe8296e024f622dd7ed11812ba52da6\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\b465139c232c14c5893be2478d66d0e8\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\b465139c232c14c5893be2478d66d0e8\transformed\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\85208037e3141ba9369b4180f3778433\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\85208037e3141ba9369b4180f3778433\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\a5f4a05c1bd92332c8891e87d0322886\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\a5f4a05c1bd92332c8891e87d0322886\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\150a4b4962cef9f1e7c527b83b66b8ce\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\150a4b4962cef9f1e7c527b83b66b8ce\transformed\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\619f7f6662634eacf5bbeb27d3c22bec\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\619f7f6662634eacf5bbeb27d3c22bec\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\e7b0c32dc2d7bc6b7b7f611659520564\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\e7b0c32dc2d7bc6b7b7f611659520564\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\5cf9a775afa7da7183ff28a36b11c54d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\5cf9a775afa7da7183ff28a36b11c54d\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\55c401c322f98c692a4e42c8a9ec0de0\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\55c401c322f98c692a4e42c8a9ec0de0\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\6d525e153029dfc6514fd8a6fb2e464d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\6d525e153029dfc6514fd8a6fb2e464d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\2a3f1ca47b589dba446b232d29fc8e62\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\2a3f1ca47b589dba446b232d29fc8e62\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\bd5a07019a601cc6bd8a525848a98c0d\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\bd5a07019a601cc6bd8a525848a98c0d\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\Syed\.gradle\caches\transforms-3\4d0fee22e6910f8191380825b705728b\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Syed\.gradle\caches\transforms-3\4d0fee22e6910f8191380825b705728b\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Syed\.gradle\caches\transforms-3\0cbe16c238cffc2587a7f7d8faea21e0\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Syed\.gradle\caches\transforms-3\0cbe16c238cffc2587a7f7d8faea21e0\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\f5fbdecb5b318070a84b422ab3c19de4\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\f5fbdecb5b318070a84b422ab3c19de4\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\cac7d4862a582f644c903bbf1c3b9310\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\cac7d4862a582f644c903bbf1c3b9310\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\0148f9e9e20a5680d2e915aa45c424b5\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\0148f9e9e20a5680d2e915aa45c424b5\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\94f9e4283aada1732643e03d237fecb6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\94f9e4283aada1732643e03d237fecb6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\ada1d6e0c414deea21ce9ea819e855ee\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\ada1d6e0c414deea21ce9ea819e855ee\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Syed\.gradle\caches\transforms-3\8bf8b4cf539d3400ee92adf8d22c8d79\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Syed\.gradle\caches\transforms-3\8bf8b4cf539d3400ee92adf8d22c8d79\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\1b46ade955867e88fa47bc74961e2b73\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Syed\.gradle\caches\transforms-3\1b46ade955867e88fa47bc74961e2b73\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\5b722c9deb4198f723fe061b4d32e5f5\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\5b722c9deb4198f723fe061b4d32e5f5\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Syed\.gradle\caches\transforms-3\7437a8aa6f0449a5562219e2247a47fe\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Syed\.gradle\caches\transforms-3\7437a8aa6f0449a5562219e2247a47fe\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\8a5b5e47faa7ce4c9dd19d074c3d2b1c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Syed\.gradle\caches\transforms-3\8a5b5e47faa7ce4c9dd19d074c3d2b1c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\c5d2f1d0a5e40a20581f02387e5fdcc6\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Syed\.gradle\caches\transforms-3\c5d2f1d0a5e40a20581f02387e5fdcc6\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\on going projects\QuranApp\android\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_database] E:\on going projects\QuranApp\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] E:\on going projects\QuranApp\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] E:\on going projects\QuranApp\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] E:\on going projects\QuranApp\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] E:\on going projects\QuranApp\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:32:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_database] E:\on going projects\QuranApp\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_database] E:\on going projects\QuranApp\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_database] E:\on going projects\QuranApp\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_database] E:\on going projects\QuranApp\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:10:17-127
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] E:\on going projects\QuranApp\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] E:\on going projects\QuranApp\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] E:\on going projects\QuranApp\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] E:\on going projects\QuranApp\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] E:\on going projects\QuranApp\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] E:\on going projects\QuranApp\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+provider#androidx.core.content.FileProvider
+ADDED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:9:9-18:20
+	android:grantUriPermissions
+		ADDED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:13:13-47
+	android:authorities
+		ADDED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:11:13-64
+	android:exported
+		ADDED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:12:13-37
+	tools:replace
+		ADDED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:14:13-48
+	android:name
+		ADDED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:10:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:15:13-17:53
+	android:resource
+		ADDED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:17:17-50
+	android:name
+		ADDED from [:flutter_webview_plugin] E:\on going projects\QuranApp\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:16:17-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:26:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:27:22-64
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\654c05b280947501cd141b0f22ee181b\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\Syed\.gradle\caches\transforms-3\b27678eb8c596aa6abfaf4adbd00d318\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Syed\.gradle\caches\transforms-3\100110ad39498912478880cfc685bfb2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Syed\.gradle\caches\transforms-3\4fe8296e024f622dd7ed11812ba52da6\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Syed\.gradle\caches\transforms-3\4fe8296e024f622dd7ed11812ba52da6\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Syed\.gradle\caches\transforms-3\4fe8296e024f622dd7ed11812ba52da6\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Syed\.gradle\caches\transforms-3\4fe8296e024f622dd7ed11812ba52da6\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\85208037e3141ba9369b4180f3778433\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\85208037e3141ba9369b4180f3778433\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Syed\.gradle\caches\transforms-3\85208037e3141ba9369b4180f3778433\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

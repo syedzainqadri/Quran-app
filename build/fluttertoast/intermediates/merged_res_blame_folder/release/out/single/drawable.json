@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\on going projects\\QuranApp\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\toast_bg.xml",
+        "source": "C:\\Users\\Syed\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-8.0.8\\android\\src\\main\\res\\drawable\\toast_bg.xml"
+    },
+    {
+        "merged": "E:\\on going projects\\QuranApp\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Syed\\.gradle\\caches\\transforms-3\\4d0fee22e6910f8191380825b705728b\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\on going projects\\QuranApp\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\corner.xml",
+        "source": "C:\\Users\\Syed\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-8.0.8\\android\\src\\main\\res\\drawable\\corner.xml"
+    },
+    {
+        "merged": "E:\\on going projects\\QuranApp\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Syed\\.gradle\\caches\\transforms-3\\4d0fee22e6910f8191380825b705728b\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\on going projects\\QuranApp\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Syed\\.gradle\\caches\\transforms-3\\4d0fee22e6910f8191380825b705728b\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\on going projects\\QuranApp\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Syed\\.gradle\\caches\\transforms-3\\4d0fee22e6910f8191380825b705728b\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    }
+]

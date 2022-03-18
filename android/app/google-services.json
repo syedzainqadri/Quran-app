@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "851608078908",
+    "firebase_url": "https://shafique-academy-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "shafique-academy",
+    "storage_bucket": "shafique-academy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851608078908:android:fc1fc2deec43434ee59139",
+        "android_client_info": {
+          "package_name": "com.example.quranapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851608078908-25cmhukkh5ek31io8bmbu9cbvadnpoeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOldo6L1yjTHsYpA1JAjsEinJQZrlxeUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851608078908-25cmhukkh5ek31io8bmbu9cbvadnpoeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
