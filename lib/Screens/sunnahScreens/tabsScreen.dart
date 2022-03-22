@@ -3,7 +3,6 @@ import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Utilities/youtubeController.dart';
 import 'package:quranapp/Widgets/CustomTabButton.dart';
 import 'package:quranapp/Widgets/CustomTabChild.dart';
-
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class TabSceern extends StatefulWidget {

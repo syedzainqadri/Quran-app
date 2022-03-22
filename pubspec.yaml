@@ -34,7 +34,6 @@ dependencies:
   avatar_glow:  
   animated_floatactionbuttons: 
   audioplayers: ^0.20.0
-  flutter_webview_plugin: 
   showcaseview: 
   hive: 
   path_provider: 

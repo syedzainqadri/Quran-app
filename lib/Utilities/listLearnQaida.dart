@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quranapp/Screens/LearnQaidaScreens/makharajScreen.dart';
 import 'package:quranapp/Screens/LearnQaidaScreens/qaidaLessons.dart';
-import 'package:quranapp/Screens/url_screen.dart';
 import 'package:quranapp/Widgets/customCard.dart';
 
 final List<Widget> learnQaidaScreenList = [
@@ -26,10 +25,5 @@ final List<Widget> learnQaidaScreenList = [
   Custom_Card(
     imagePath: 'assets/images/question.png',
     title: 'Question & Answer',
-  ),
-  Custom_Card(
-    imagePath: 'assets/images/learnonline.png',
-    title: 'Learn Online from Qari',
-    screenName: Url(),
   ),
 ];

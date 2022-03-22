@@ -206,12 +206,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "flutter_webview_plugin",
-      "rootUri": "file:///Users/xain/development/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_webview_plugin-0.3.11",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
       "name": "fluttertoast",
       "rootUri": "file:///Users/xain/development/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.9",
       "packageUri": "lib/",
@@ -488,7 +482,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2022-03-20T07:10:28.605203Z",
+  "generated": "2022-03-22T05:21:31.705162Z",
   "generator": "pub",
   "generatorVersion": "2.16.1"
 }

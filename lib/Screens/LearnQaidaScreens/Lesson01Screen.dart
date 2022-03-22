@@ -1,16 +1,13 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:hive/hive.dart';
 import 'package:quranapp/Model/firebasefile.dart';
 import 'package:quranapp/Model/lesson.dart';
 import 'package:quranapp/Utilities/SliverWidgets.dart';
 import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Widgets/CustomWordCard.dart';
 import 'package:quranapp/controllers/lesson01_controller.dart';
-import 'package:quranapp/controllers/lesson02_controller%20.dart';
 import 'package:quranapp/firebaseApi/firebaseApi.dart';
 import 'package:showcaseview/showcaseview.dart';
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
@@ -68,9 +65,6 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
         print("index=> $index key=> $key");
       },
       builder: Builder(builder: (context) {
-        // if (!box.containsKey(widget.lessonModel.lessonNo))
-        //   WidgetsBinding.instance.addPostFrameCallback(
-        //       (_) => ShowCaseWidget.of(context).startShowCase([_one]));
         return SafeArea(
           child: Scaffold(
               floatingActionButton: Showcase(
@@ -80,12 +74,6 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                   final controller = Get.find<Lesson01Controller>();
                   return FloatingActionButton(
                     onPressed: () async {
-                      // if (!box.containsKey(widget.lessonModel.lessonNo)) {
-                      //   box.put(widget.lessonModel.lessonNo, true);
-                      //   controller.updateCanDissmisse(false);
-                      // } else
-                      //   controller.updateCanDissmisse(true);
-
                       await showDialog(
                         context: context,
                         barrierDismissible: controller.canDissmisse.value,
@@ -98,7 +86,6 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30),
                               ),
-                              // insetPadding: EdgeInsets.symmetric(horizontal: 20),
                               titlePadding:
                                   EdgeInsets.symmetric(horizontal: 15),
                               content: FutureBuilder<List<FirebaseFile>>(
@@ -110,7 +97,6 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                                           child: Text('Some error occurred!'));
                                     } else {
                                       final instruction = snapshot?.data;
-                                      // print(instructions[0].url);
                                       return Column(
                                         children: [
                                           Expanded(
@@ -135,8 +121,6 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                                                 itemBuilder:
                                                     (BuildContext context,
                                                         int index) {
-                                                  //  print(files[index].url);
-                                                  // print(FirebaseApi.);
                                                   return Container(
                                                     height: 50,
                                                     width: 400,
@@ -275,15 +259,6 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                                       SvgPicture.network(
                                         "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text1%2F0.svg?alt=media&token=c9029d17-018d-4cbb-9696-976520720b94",
                                       ),
-                                      // Text(
-
-                                      //   // '${widget.lessonModel.title_eng} - ${widget.lessonModel.title_ar}',
-                                      //   style: TextStyle(
-                                      //     fontSize: 16,
-                                      //     fontWeight: FontWeight.bold,
-                                      //     color: kGoldenColor,
-                                      //   ),
-                                      // )
                                     ],
                                   ),
                                 ),
@@ -291,14 +266,11 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                             ),
 
                             SliverGrid(
-                              //  spacing: 7,
-                              // runSpacing: 10,
                               delegate: SliverChildBuilderDelegate(
                                 (context, index) {
                                   return CustomWordCard(
                                       word:
                                           "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text1%2F${index + 1}.svg?alt=media&token=c9029d17-018d-4cbb-9696-976520720b94",
-                                      // subWord: sounds[index].url,
                                       soundPath:
                                           "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound1%2FL1${index + 1}.wav?alt=media&token=a7dc3455-7626-41c9-8cae-fbb7be8592d6");
                                 },
