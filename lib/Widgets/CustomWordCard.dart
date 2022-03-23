@@ -62,7 +62,14 @@ class CustomWordCard extends StatelessWidget {
               Positioned(
                   // top: 20,
                   child: Container(
-                      width: 90, height: 50, child: SvgPicture.network(word))),
+                      width: 90,
+                      height: 50,
+                      child: SvgPicture.network(
+                        word,
+                        placeholderBuilder: (context) => Center(
+                          child: Icon(Icons.image),
+                        ),
+                      ))),
             ],
           ),
         ),

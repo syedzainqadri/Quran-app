@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:quranapp/Screens/LearnQaidaScreens/Lesson01Screen.dart';
 import 'package:quranapp/Screens/QuizScreens/quiz_screen.dart';
+import 'package:quranapp/Utilities/LessonsContentList/listLesson01.dart';
 import 'package:quranapp/Utilities/SliverWidgets.dart';
 import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Utilities/listQaidaLesson.dart';
+import 'package:quranapp/Widgets/CustomLessonListTile.dart';
 
 class QaidaLessons extends StatefulWidget {
   @override
@@ -44,7 +47,22 @@ class _QaidaLessonsState extends State<QaidaLessons> {
               ),
             ),
             SliverList(
+              /// i have change this code "niaz"
               delegate: SliverChildListDelegate(
+                // List.generate(
+                //     27,
+                //     (index) => CustomLessonListTile(
+                //           lessonNo: index < 9
+                //               ? (0 + index + 1).toString()
+                //               : (index + 1).toString(),
+                //           lessonNoU: index < 9
+                //               ? (0 + index + 1).toString()
+                //               : (index + 1).toString(),
+                //           screenName: Lesson01Screen(
+                //               lessonModel: lessonDetails.first),
+                //         ))
+
+                /// below line is commit
                 qaidaLessons,
               ),
             )

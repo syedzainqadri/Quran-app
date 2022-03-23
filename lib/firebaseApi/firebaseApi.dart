@@ -9,6 +9,7 @@ class FirebaseApi {
       Future.wait(refs.map((ref) => ref.getDownloadURL()).toList());
 
   static Future<List<FirebaseFile>> listAll(String path) async {
+    print(" in list all: path is: $path");
     final ref = FirebaseStorage.instance.ref(path);
     final result = await ref.listAll();
 

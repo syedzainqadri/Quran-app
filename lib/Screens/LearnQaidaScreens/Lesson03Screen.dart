@@ -234,91 +234,91 @@ class _Lesson03ScreenState extends State<Lesson03Screen> {
                         ),
                       );
                     }
-                    if (fsnapshot.hasData) {
-                      return Directionality(
-                        textDirection: TextDirection.rtl,
-                        child: CustomScrollView(
-                          slivers: <Widget>[
-                            ///First sliver is the App Bar
-                            SliverAppBar(
-                              backgroundColor: kGreenLightColor,
-                              title: MyAppBar(
-                                Icon(
-                                  Icons.ac_unit,
-                                  size: 25,
-                                ),
-                                () {},
-                              ),
-                              pinned: true,
-                              expandedHeight: 230,
-                              flexibleSpace: FlexibleSpaceBar(
-                                background: MyFlexibleAppBar(
-                                  Padding(
-                                    padding: const EdgeInsets.only(bottom: 8.0),
-                                    child: Image.asset(
-                                        'assets/images/bismillah.png',
-                                        width: 80),
-                                  ),
-                                  Stack(
-                                    alignment: Alignment.center,
-                                    children: [
-                                      Image.asset(
-                                        'assets/texture/lessonTexture.png',
-                                        width: 310,
-                                      ),
-                                      SvgPicture.network(
-                                        "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text3%2F0.svg?alt=media&token=b341539c-1d39-43c3-a719-b013e309a5cd",
-                                      ),
-                                      // Text(
 
-                                      //   // '${widget.lessonModel.title_eng} - ${widget.lessonModel.title_ar}',
-                                      //   style: TextStyle(
-                                      //     fontSize: 16,
-                                      //     fontWeight: FontWeight.bold,
-                                      //     color: kGoldenColor,
-                                      //   ),
-                                      // )
-                                    ],
-                                  ),
+                    return Directionality(
+                      textDirection: TextDirection.rtl,
+                      child: CustomScrollView(
+                        slivers: <Widget>[
+                          ///First sliver is the App Bar
+                          SliverAppBar(
+                            backgroundColor: kGreenLightColor,
+                            title: MyAppBar(
+                              Icon(
+                                Icons.ac_unit,
+                                size: 25,
+                              ),
+                              () {},
+                            ),
+                            pinned: true,
+                            expandedHeight: 230,
+                            flexibleSpace: FlexibleSpaceBar(
+                              background: MyFlexibleAppBar(
+                                Padding(
+                                  padding: const EdgeInsets.only(bottom: 8.0),
+                                  child: Image.asset(
+                                      'assets/images/bismillah.png',
+                                      width: 80),
+                                ),
+                                Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                    Image.asset(
+                                      'assets/texture/lessonTexture.png',
+                                      width: 310,
+                                    ),
+                                    SvgPicture.network(
+                                      "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text3%2F1.svg?alt=media&token=b341539c-1d39-43c3-a719-b013e309a5cd",
+                                    ),
+                                    // Text(
+
+                                    //   // '${widget.lessonModel.title_eng} - ${widget.lessonModel.title_ar}',
+                                    //   style: TextStyle(
+                                    //     fontSize: 16,
+                                    //     fontWeight: FontWeight.bold,
+                                    //     color: kGoldenColor,
+                                    //   ),
+                                    // )
+                                  ],
                                 ),
                               ),
                             ),
+                          ),
 
-                            SliverGrid(
-                              //  spacing: 7,
-                              // runSpacing: 10,
-                              delegate: SliverChildBuilderDelegate(
-                                (context, index) {
-                                  // print(fsnapshot.data[1][4].url);
-                                  return CustomWordCard(
-                                      // word: fsnapshot.data[0][index].url,
-                                      word:
-                                          "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text3%2F${index + 1}.svg?alt=media&token=b341539c-1d39-43c3-a719-b013e309a5cd",
-                                      // subWord: sounds[index].url,
-                                      soundPath:
-                                          // fsnapshot.data[1][index].url,
-                                          "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound3%2FL3%20${index + 1}.wav?alt=media&token=46a9c366-f2ca-4531-815d-18304dd4d48b");
-                                  // " https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound3%2FL3%201.wav?alt=media&token=46a9c366-f2ca-4531-815d-18304dd4d48b;
-                                },
-                                childCount: fsnapshot.data[0].length - 1,
-                              ),
-                              gridDelegate:
-                                  SliverGridDelegateWithFixedCrossAxisCount(
-                                crossAxisCount: 3,
-                                mainAxisSpacing: 10,
-                                crossAxisSpacing: 5,
-                                childAspectRatio: 1.0,
-                              ),
+                          SliverGrid(
+                            //  spacing: 7,
+                            // runSpacing: 10,
+                            delegate:
+                                SliverChildBuilderDelegate((context, index) {
+                              // print(fsnapshot.data[1][4].url);
+                              return CustomWordCard(
+                                  // word: fsnapshot.data[0][index].url,
+                                  word:
+                                      "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text3%2F${index + 1}.svg?alt=media&token=b341539c-1d39-43c3-a719-b013e309a5cd",
+                                  // subWord: sounds[index].url,
+                                  soundPath:
+                                      // fsnapshot.data[1][index].url,
+                                      "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound3%2FL3%20${index + 1}.wav?alt=media&token=46a9c366-f2ca-4531-815d-18304dd4d48b");
+                              // " https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound3%2FL3%201.wav?alt=media&token=46a9c366-f2ca-4531-815d-18304dd4d48b;
+                            },
+                                    // childCount: fsnapshot.data[0].length - 1,
+                                    childCount: 120),
+                            gridDelegate:
+                                SliverGridDelegateWithFixedCrossAxisCount(
+                              crossAxisCount: 3,
+                              mainAxisSpacing: 10,
+                              crossAxisSpacing: 5,
+                              childAspectRatio: 1.0,
                             ),
-                          ],
-                        ),
-                      );
-                    }
-                    return Center(
-                      child: Container(
-                        child: CircularProgressIndicator(),
+                          ),
+                        ],
                       ),
                     );
+
+                    // return Center(
+                    //   child: Container(
+                    //     child: CircularProgressIndicator(),
+                    //   ),
+                    // );
                   })),
         );
       }),
