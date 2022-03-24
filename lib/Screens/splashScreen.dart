@@ -1,8 +1,6 @@
-import 'dart:async';
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:quranapp/Screens/homeScreen.dart';
 import 'package:quranapp/Screens/landingPage.dart';
 import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Utilities/delayedAnimation.dart';
