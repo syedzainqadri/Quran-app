@@ -8,6 +8,7 @@ import 'package:quranapp/Model/lesson.dart';
 import 'package:quranapp/Utilities/SliverWidgets.dart';
 import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Widgets/CustomWordCard.dart';
+import 'package:quranapp/Widgets/instruction_widget.dart';
 import 'package:quranapp/controllers/lesson18_controller.dart';
 import 'package:quranapp/firebaseApi/firebaseApi.dart';
 import 'package:showcaseview/showcaseview.dart';
@@ -47,6 +48,7 @@ class _Lesson18ScreenState extends State<Lesson18Screen> {
     super.dispose();
   }
 
+  bool isPlaySound = false;
   @override
   Widget build(BuildContext context) {
     return ShowCaseWidget(
@@ -66,159 +68,24 @@ class _Lesson18ScreenState extends State<Lesson18Screen> {
         //       (_) => ShowCaseWidget.of(context).startShowCase([_one]));
         return SafeArea(
           child: Scaffold(
-              floatingActionButton: Showcase(
-                description: "Instruction",
-                key: _one,
-                child: Obx(() {
-                  final controller = Get.find<Lesson18Controller>();
-                  return FloatingActionButton(
-                    onPressed: () async {
-                      // if (!box.containsKey(widget.lessonModel.lessonNo)) {
-                      //   box.put(widget.lessonModel.lessonNo, true);
-                      //   controller.updateCanDissmisse(false);
-                      // } else
-                      //   controller.updateCanDissmisse(true);
-
-                      await showDialog(
-                        context: context,
-                        barrierDismissible: controller.canDissmisse.value,
-                        barrierColor: kGreenColor.withOpacity(0.3),
-                        builder: (builder) {
-                          return WillPopScope(
-                            onWillPop: () async =>
-                                controller.canDissmisse.value,
-                            child: AlertDialog(
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30),
-                              ),
-                              // insetPadding: EdgeInsets.symmetric(horizontal: 20),
-                              titlePadding:
-                                  EdgeInsets.symmetric(horizontal: 15),
-                              content: FutureBuilder<List<FirebaseFile>>(
-                                  future: instructions,
-                                  builder: (BuildContext context,
-                                      AsyncSnapshot snapshot) {
-                                    if (snapshot.hasError) {
-                                      return Center(
-                                          child: Text('Some error occurred!'));
-                                    } else {
-                                      final instruction = snapshot?.data;
-                                      // print(instructions[0].url);
-                                      return Column(
-                                        children: [
-                                          Expanded(
-                                            flex: 2,
-                                            child: Row(
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.center,
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.center,
-                                              children: [
-                                                Icon(Icons.api_outlined),
-                                                Icon(Icons.api_outlined),
-                                                Icon(Icons.api_outlined),
-                                                Icon(Icons.api_outlined),
-                                              ],
-                                            ),
-                                          ),
-                                          Expanded(
-                                            flex: 6,
-                                            child: ListView.builder(
-                                                itemCount: instruction.length,
-                                                itemBuilder:
-                                                    (BuildContext context,
-                                                        int index) {
-                                                  //  print(files[index].url);
-                                                  // print(FirebaseApi.);
-                                                  return Container(
-                                                    height: 150,
-                                                    width: 500,
-                                                    child: SvgPicture.network(
-                                                        instruction[index].url),
-                                                  );
-                                                }),
-                                          ),
-
-                                          // Icon(Icons.api_outlined),
-                                          Expanded(
-                                            flex: 2,
-                                            child: Row(
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.center,
-                                              mainAxisAlignment:
-                                                  MainAxisAlignment.center,
-                                              children: [
-                                                Icon(Icons.api_outlined),
-                                                Icon(Icons.api_outlined),
-                                                Icon(Icons.api_outlined),
-                                                Icon(Icons.api_outlined),
-                                              ],
-                                            ),
-                                          )
-                                        ],
-                                      );
-                                    }
-                                  }),
-                              actions: [
-                                Row(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    controller.canDissmisse.value
-                                        ? Text("")
-                                        : CircularCountDownTimer(
-                                            duration:
-                                                controller.canDissmisse.value
-                                                    ? 5
-                                                    : 5,
-                                            initialDuration: 0,
-                                            controller: CountDownController(),
-                                            width: 40,
-                                            height: 40,
-                                            ringColor: Colors.grey[300],
-                                            ringGradient: null,
-                                            fillColor: kGreenColor,
-                                            fillGradient: null,
-                                            backgroundColor: kGreenColor,
-                                            backgroundGradient: null,
-                                            strokeWidth: 3.0,
-                                            strokeCap: StrokeCap.round,
-                                            textStyle: TextStyle(
-                                                fontSize: 33.0,
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.bold),
-                                            textFormat: CountdownTextFormat.S,
-                                            isReverse: false,
-                                            isReverseAnimation: false,
-                                            isTimerTextShown: true,
-                                            autoStart: true,
-                                            onStart: () {
-                                              print('Countdown Started');
-                                            },
-                                            onComplete: () {
-                                              print('Countdown Ended');
-                                              Get.find<Lesson18Controller>()
-                                                  .updateCanDissmisse(true);
-                                              Get.back();
-                                            },
-                                          ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          );
-                        },
-                      );
-                    },
-                    backgroundColor: controller.canDissmisse.value
-                        ? kGreenColor
-                        : kGreenColor,
-                    child: Icon(
-                      CupertinoIcons.info,
-                      color: Colors.yellow,
-                      size: 40,
-                    ),
-                  );
-                }),
+              floatingActionButton: FloatingActionButton(
+                backgroundColor: kGreenColor,
+                child: Icon(
+                  CupertinoIcons.info,
+                  color: Colors.yellow,
+                  size: 40,
+                ),
+                onPressed: () {
+                  setState(() {
+                    isPlaySound = true;
+                  });
+                  showInstructionDialog(
+                      context: context,
+                      instructions: instructions,
+                      itemLength: 1,
+                      url:
+                          "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/instruction18%2Fi");
+                },
               ),
               body: FutureBuilder(
                   future: Future.wait([files, sounds]),
@@ -289,6 +156,7 @@ class _Lesson18ScreenState extends State<Lesson18Screen> {
                               (context, index) {
                                 // print(fsnapshot.data[0][0].url);
                                 return CustomWordCard(
+                                  isPlaySound: isPlaySound,
                                   word:
                                       "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text18%2F${index + 1}.svg?alt=media&token=895c9ad1-c1e4-4935-a353-002fa55fdee4",
                                   soundPath:

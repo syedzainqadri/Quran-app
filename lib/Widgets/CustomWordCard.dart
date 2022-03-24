@@ -11,10 +11,12 @@ class CustomWordCard extends StatelessWidget {
     @required this.word,
     this.subWord,
     this.soundPath,
+    this.isPlaySound,
   });
 
   final String word;
   final String subWord;
+  final bool isPlaySound;
   final String soundPath;
   AudioPlayer audioPlayer = AudioPlayer();
   @override
@@ -32,7 +34,10 @@ class CustomWordCard extends StatelessWidget {
             ? box.get(DB_Current_Page_Lesson)
             : "null";
         // bool isDoneInst = box.containsKey(isLessonNo);
-        if (soundPath != '')
+        // if (!isPlaySound) {
+        //   showAlertDialog(context);
+        // }
+        if (soundPath != '' && isPlaySound)
           playSound(soundPath);
         else
           getToast("Read The Instruction First!");
@@ -141,4 +146,31 @@ class WordCard extends StatelessWidget {
       ),
     );
   }
+}
+
+showAlertDialog(BuildContext context) {
+  // Create button
+  Widget okButton = FlatButton(
+    child: Text("OK"),
+    onPressed: () {
+      Navigator.of(context).pop();
+    },
+  );
+
+  // Create AlertDialog
+  AlertDialog alert = AlertDialog(
+    title: Text("Message"),
+    content: Text("Please Read Instruction Before Listen"),
+    actions: [
+      okButton,
+    ],
+  );
+
+  // show the dialog
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return alert;
+    },
+  );
 }
