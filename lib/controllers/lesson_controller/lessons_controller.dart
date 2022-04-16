@@ -22,33 +22,5 @@ class LessonsController extends GetxController {
     print("urls $url");
     isLoading(false);
     urls(url).obs;
-
-    // if(debugMode)print(detail);
-//     if (detail != null) {
-//       try {
-//         userInfoResponse.value = customerModelFromJson(detail.toString());
-//         if (userInfoResponse.value.customers == null) {
-//           print(" data is null "
-//               "");
-//           //successSnackbarReplace(0,registerResp.value.error.toString());
-//           isListNull(true).obs;
-//         }
-//         isLoading(false).obs;
-//       } catch (e) {
-//         isLoading(false).obs;
-//         var response = json.decode(detail.toString());
-//         // if(response["data"]==[]){
-//         //   isListNull(true).obs;
-//         // }
-//         if (response["success"] == false) {
-//           errorSnackbar(response["error"]);
-//         } else {
-//           errorSnackbar("Something went wrong, Try again".tr);
-//         }
-//       }
-//     } else {
-//       isLoading(false).obs;
-// //        errorSnackbar("Something went wrong, try again");
-//     }
   }
 }
