@@ -11,7 +11,6 @@ import 'package:quranapp/Widgets/instruction_widget.dart';
 import 'package:quranapp/controllers/lesson01_controller.dart';
 import 'package:quranapp/firebaseApi/firebaseApi.dart';
 import 'package:showcaseview/showcaseview.dart';
-import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import "dart:core";
 
 class Lesson01Screen extends StatefulWidget {
@@ -36,13 +35,16 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
     Get.put(Lesson01Controller());
 
     instructions = FirebaseApi.listAll('instruction1/');
-
+    print(instructions);
+    getfile();
     super.initState();
   }
 
   getfile() {
     sounds = FirebaseApi.listAll('sound1/');
     files = FirebaseApi.listAll('text1/');
+    print(sounds);
+    print(files);
     return files;
   }
 
@@ -146,9 +148,9 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                                 return CustomWordCard(
                                     isPlaySound: isPlaySound,
                                     word:
-                                        "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text1%2F${index + 1}.svg?alt=media&token=c9029d17-018d-4cbb-9696-976520720b94",
+                                        "assets/letters/chapter1/${index + 1}.svg",
                                     soundPath:
-                                        "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound1%2FL1${index + 1}.wav?alt=media&token=a7dc3455-7626-41c9-8cae-fbb7be8592d6");
+                                        "assets/audio/sounds/chapter1/${index + 1}.wav");
                               },
                               childCount: 29,
                             ),
@@ -162,12 +164,6 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                             ),
                           ),
                         ],
-                      ),
-                    );
-
-                    return Center(
-                      child: Container(
-                        child: CircularProgressIndicator(),
                       ),
                     );
                   })),

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:quranapp/Model/firebasefile.dart';
 import 'package:quranapp/Utilities/constants.dart';
 
 showInstructionDialog({int itemLength, String url, context, instructions}) {

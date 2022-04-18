@@ -25,20 +25,18 @@ class CustomWordCard extends StatelessWidget {
     final double dWidth = MediaQuery.of(context).size.width;
     final double dHeight = MediaQuery.of(context).size.height;
     void playSound(String soundPath) async {
-      await audioPlayer.play(soundPath);
+      await audioPlayer.play(soundPath, isLocal: true);
     }
 
     return GestureDetector(
       onTap: () {
-        String isLessonNo = box.containsKey(DB_Current_Page_Lesson)
-            ? box.get(DB_Current_Page_Lesson)
-            : "null";
-        // bool isDoneInst = box.containsKey(isLessonNo);
-        // if (!isPlaySound) {
-        //   showAlertDialog(context);
-        // }
+        // String isLessonNo = box.containsKey(DB_Current_Page_Lesson)
+        //     ? box.get(DB_Current_Page_Lesson)
+        //     : "null";
         if (soundPath != '' && isPlaySound)
-          playSound(soundPath);
+          playSound(
+            soundPath,
+          );
         else
           getToast("Read The Instruction First!");
       },
@@ -69,7 +67,7 @@ class CustomWordCard extends StatelessWidget {
                   child: Container(
                       width: 90,
                       height: 50,
-                      child: SvgPicture.network(
+                      child: SvgPicture.asset(
                         word,
                         placeholderBuilder: (context) => Center(
                           child: Icon(Icons.image),
@@ -83,70 +81,70 @@ class CustomWordCard extends StatelessWidget {
   }
 }
 
-class WordCard extends StatelessWidget {
-  WordCard({
-    @required this.textList,
-  });
+// class WordCard extends StatelessWidget {
+//   WordCard({
+//     @required this.textList,
+//   });
 
-  // final Widget textWidget;
-  final textList;
-  //AudioPlayer audioPlayer = AudioPlayer();
-  final box = Hive.box(DB_lesson);
-  void playSound(String soundPath) async {
-    final player = AudioCache();
-    await player.play(soundPath);
-  }
+//   // final Widget textWidget;
+//   final textList;
+//   //AudioPlayer audioPlayer = AudioPlayer();
+//   final box = Hive.box(DB_lesson);
+//   void playSound(String soundPath) async {
+//     final player = AudioCache();
+//     await player.play(soundPath);
+//   }
 
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {
-        String isLessonNo = box.containsKey(DB_Current_Page_Lesson)
-            ? box.get(DB_Current_Page_Lesson)
-            : "null";
-        bool isDoneInst = box.containsKey(isLessonNo);
-        if (isDoneInst)
-          getToast("No Audio Found!");
-        // playSound(soundPath);
-        else
-          getToast("Read The Instruction First!");
-      },
-      child: Padding(
-        padding: const EdgeInsets.all(3.0),
-        child: Container(
-          height: 80,
-          width: 80,
-          // width: dWidth / 2.4,
-          // height: dWidth / 2.3,
-          decoration: BoxDecoration(
-            color: kLightColor,
-            borderRadius: BorderRadius.circular(15),
-            boxShadow: [
-              BoxShadow(
-                spreadRadius: 1,
-                color: kGoldenColor.withOpacity(0.8),
-                offset: Offset(2, 2),
-                blurRadius: 0,
-              ),
-            ],
-          ),
-          child: Center(
-            child: RichText(
-              text: TextSpan(
-                style: TextStyle(
-                  fontSize: 40,
-                  color: Colors.black,
-                  fontFamily: 'Microsoft Uighur',
-                ),
-                children: textList,
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return GestureDetector(
+//       onTap: () {
+//         String isLessonNo = box.containsKey(DB_Current_Page_Lesson)
+//             ? box.get(DB_Current_Page_Lesson)
+//             : "null";
+//         bool isDoneInst = box.containsKey(isLessonNo);
+//         if (isDoneInst)
+//           getToast("No Audio Found!");
+//         // playSound(soundPath);
+//         else
+//           getToast("Read The Instruction First!");
+//       },
+//       child: Padding(
+//         padding: const EdgeInsets.all(3.0),
+//         child: Container(
+//           height: 80,
+//           width: 80,
+//           // width: dWidth / 2.4,
+//           // height: dWidth / 2.3,
+//           decoration: BoxDecoration(
+//             color: kLightColor,
+//             borderRadius: BorderRadius.circular(15),
+//             boxShadow: [
+//               BoxShadow(
+//                 spreadRadius: 1,
+//                 color: kGoldenColor.withOpacity(0.8),
+//                 offset: Offset(2, 2),
+//                 blurRadius: 0,
+//               ),
+//             ],
+//           ),
+//           child: Center(
+//             child: RichText(
+//               text: TextSpan(
+//                 style: TextStyle(
+//                   fontSize: 40,
+//                   color: Colors.black,
+//                   fontFamily: 'Microsoft Uighur',
+//                 ),
+//                 children: textList,
+//               ),
+//             ),
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }
 
 showAlertDialog(BuildContext context) {
   // Create button
