@@ -9,30 +9,27 @@ import 'package:quranapp/Utilities/constants.dart';
 class CustomWordCard extends StatelessWidget {
   CustomWordCard({
     @required this.word,
-    this.subWord,
+    // this.subWord,
     this.soundPath,
     this.isPlaySound,
   });
 
   final String word;
-  final String subWord;
+  // final String subWord;
   final bool isPlaySound;
   final String soundPath;
-  AudioPlayer audioPlayer = AudioPlayer();
+  // final audioPlayer = AudioCache();
   @override
   Widget build(BuildContext context) {
-    final box = Hive.box(DB_lesson);
-    final double dWidth = MediaQuery.of(context).size.width;
-    final double dHeight = MediaQuery.of(context).size.height;
     void playSound(String soundPath) async {
-      await audioPlayer.play(soundPath, isLocal: true);
+      final audioPlayer = AudioCache();
+      // audioPlayer.fixedPlayer.stop();
+      await audioPlayer.play(soundPath,
+          mode: PlayerMode.LOW_LATENCY, stayAwake: false);
     }
 
     return GestureDetector(
       onTap: () {
-        // String isLessonNo = box.containsKey(DB_Current_Page_Lesson)
-        //     ? box.get(DB_Current_Page_Lesson)
-        //     : "null";
         if (soundPath != '' && isPlaySound)
           playSound(
             soundPath,
@@ -45,8 +42,6 @@ class CustomWordCard extends StatelessWidget {
         child: Container(
           height: 100,
           width: 100,
-          // width: dWidth / 2.4,
-          // height: dWidth / 2.3,
           decoration: BoxDecoration(
             color: kBlueCOlor[50],
             borderRadius: BorderRadius.circular(15),
@@ -54,7 +49,6 @@ class CustomWordCard extends StatelessWidget {
               BoxShadow(
                 spreadRadius: 1,
                 color: kBlueCOlor,
-                // offset: Offset(2, 2),
                 blurRadius: 0,
               ),
             ],
@@ -80,71 +74,6 @@ class CustomWordCard extends StatelessWidget {
     );
   }
 }
-
-// class WordCard extends StatelessWidget {
-//   WordCard({
-//     @required this.textList,
-//   });
-
-//   // final Widget textWidget;
-//   final textList;
-//   //AudioPlayer audioPlayer = AudioPlayer();
-//   final box = Hive.box(DB_lesson);
-//   void playSound(String soundPath) async {
-//     final player = AudioCache();
-//     await player.play(soundPath);
-//   }
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return GestureDetector(
-//       onTap: () {
-//         String isLessonNo = box.containsKey(DB_Current_Page_Lesson)
-//             ? box.get(DB_Current_Page_Lesson)
-//             : "null";
-//         bool isDoneInst = box.containsKey(isLessonNo);
-//         if (isDoneInst)
-//           getToast("No Audio Found!");
-//         // playSound(soundPath);
-//         else
-//           getToast("Read The Instruction First!");
-//       },
-//       child: Padding(
-//         padding: const EdgeInsets.all(3.0),
-//         child: Container(
-//           height: 80,
-//           width: 80,
-//           // width: dWidth / 2.4,
-//           // height: dWidth / 2.3,
-//           decoration: BoxDecoration(
-//             color: kLightColor,
-//             borderRadius: BorderRadius.circular(15),
-//             boxShadow: [
-//               BoxShadow(
-//                 spreadRadius: 1,
-//                 color: kGoldenColor.withOpacity(0.8),
-//                 offset: Offset(2, 2),
-//                 blurRadius: 0,
-//               ),
-//             ],
-//           ),
-//           child: Center(
-//             child: RichText(
-//               text: TextSpan(
-//                 style: TextStyle(
-//                   fontSize: 40,
-//                   color: Colors.black,
-//                   fontFamily: 'Microsoft Uighur',
-//                 ),
-//                 children: textList,
-//               ),
-//             ),
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
 
 showAlertDialog(BuildContext context) {
   // Create button

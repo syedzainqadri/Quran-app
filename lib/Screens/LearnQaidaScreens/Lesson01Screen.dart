@@ -23,36 +23,36 @@ class Lesson01Screen extends StatefulWidget {
 }
 
 class _Lesson01ScreenState extends State<Lesson01Screen> {
-  Future<List<FirebaseFile>> files;
-  Future<List<FirebaseFile>> sounds;
+  // Future<List<FirebaseFile>> files;
+  // Future<List<FirebaseFile>> sounds;
   Future<List<FirebaseFile>> instructions;
-  GlobalKey _one = GlobalKey();
+  // GlobalKey _one = GlobalKey();
   //final box = Hive.box(DB_lesson);
 
   @override
   void initState() {
     // box.put(DB_Current_Page_Lesson, widget.lessonModel.lessonNo);
-    Get.put(Lesson01Controller());
+    // Get.put(Lesson01Controller());
 
     instructions = FirebaseApi.listAll('instruction1/');
     print(instructions);
-    getfile();
+    // getfile();
     super.initState();
   }
 
   getfile() {
-    sounds = FirebaseApi.listAll('sound1/');
-    files = FirebaseApi.listAll('text1/');
-    print(sounds);
-    print(files);
-    return files;
+    // sounds = FirebaseApi.listAll('sound1/');
+    // files = FirebaseApi.listAll('text1/');
+    // print(sounds);
+    // print(files);
+    // return files;
   }
 
-  @override
-  void dispose() {
-    Get.find<Lesson01Controller>().dispose();
-    super.dispose();
-  }
+  // @override
+  // void dispose() {
+  //   Get.find<Lesson01Controller>().dispose();
+  //   super.dispose();
+  // }
 
   bool isPlaySound = false;
   @override
@@ -91,82 +91,79 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                 },
               ),
               body: FutureBuilder<List<FirebaseFile>>(
-                  future: getfile(),
+                  // future: getfile(),
                   builder: (BuildContext context, AsyncSnapshot fsnapshot) {
-                    final files = fsnapshot?.data;
-                    if (fsnapshot.hasError) {
-                      return Container(
-                        child: Center(
-                          child: Text(fsnapshot.error.toString()),
+                final files = fsnapshot?.data;
+                if (fsnapshot.hasError) {
+                  return Container(
+                    child: Center(
+                      child: Text(fsnapshot.error.toString()),
+                    ),
+                  );
+                }
+
+                return Directionality(
+                  textDirection: TextDirection.rtl,
+                  child: CustomScrollView(
+                    slivers: <Widget>[
+                      ///First sliver is the App Bar
+                      SliverAppBar(
+                        backgroundColor: kGreenLightColor,
+                        title: MyAppBar(
+                          Icon(
+                            Icons.ac_unit,
+                            size: 25,
+                          ),
+                          () {},
                         ),
-                      );
-                    }
-
-                    return Directionality(
-                      textDirection: TextDirection.rtl,
-                      child: CustomScrollView(
-                        slivers: <Widget>[
-                          ///First sliver is the App Bar
-                          SliverAppBar(
-                            backgroundColor: kGreenLightColor,
-                            title: MyAppBar(
-                              Icon(
-                                Icons.ac_unit,
-                                size: 25,
-                              ),
-                              () {},
+                        pinned: true,
+                        expandedHeight: 230,
+                        flexibleSpace: FlexibleSpaceBar(
+                          background: MyFlexibleAppBar(
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Image.asset('assets/images/bismillah.png',
+                                  width: 80),
                             ),
-                            pinned: true,
-                            expandedHeight: 230,
-                            flexibleSpace: FlexibleSpaceBar(
-                              background: MyFlexibleAppBar(
-                                Padding(
-                                  padding: const EdgeInsets.only(bottom: 8.0),
-                                  child: Image.asset(
-                                      'assets/images/bismillah.png',
-                                      width: 80),
+                            Stack(
+                              alignment: Alignment.center,
+                              children: [
+                                Image.asset(
+                                  'assets/texture/lessonTexture.png',
+                                  width: 310,
                                 ),
-                                Stack(
-                                  alignment: Alignment.center,
-                                  children: [
-                                    Image.asset(
-                                      'assets/texture/lessonTexture.png',
-                                      width: 310,
-                                    ),
-                                    SvgPicture.network(
-                                      "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text1%2F0.svg?alt=media&token=c9029d17-018d-4cbb-9696-976520720b94",
-                                    ),
-                                  ],
+                                SvgPicture.network(
+                                  "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text1%2F0.svg?alt=media&token=c9029d17-018d-4cbb-9696-976520720b94",
                                 ),
-                              ),
+                              ],
                             ),
                           ),
-
-                          SliverGrid(
-                            delegate: SliverChildBuilderDelegate(
-                              (context, index) {
-                                return CustomWordCard(
-                                    isPlaySound: isPlaySound,
-                                    word:
-                                        "assets/letters/chapter1/${index + 1}.svg",
-                                    soundPath:
-                                        "assets/audio/sounds/chapter1/${index + 1}.wav");
-                              },
-                              childCount: 29,
-                            ),
-                            gridDelegate:
-                                SliverGridDelegateWithFixedCrossAxisCount(
-                              // mainAxisExtent: 70,
-                              crossAxisCount: 3,
-                              mainAxisSpacing: 10,
-                              crossAxisSpacing: 5,
-                              childAspectRatio: 1.0,
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
-                    );
-                  })),
+
+                      SliverGrid(
+                        delegate: SliverChildBuilderDelegate(
+                          (context, index) {
+                            return CustomWordCard(
+                              isPlaySound: true,
+                              word: "assets/letters/chapter1/${index + 1}.svg",
+                              soundPath: "audio/chapter1/${index + 1}.wav",
+                            );
+                          },
+                          childCount: 29,
+                        ),
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          // mainAxisExtent: 70,
+                          crossAxisCount: 3,
+                          mainAxisSpacing: 10,
+                          crossAxisSpacing: 5,
+                          childAspectRatio: 1.0,
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              })),
         );
       }),
     );
