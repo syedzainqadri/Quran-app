@@ -36,7 +36,7 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
     // box.put(DB_Current_Page_Lesson, widget.lessonModel.lessonNo);
     Get.put(Lesson01Controller());
 
-    instructions = FirebaseApi.listAll('instruction1/');
+    // instructions = FirebaseApi.listAll('instruction1/');
     print(instructions);
     super.initState();
   }
