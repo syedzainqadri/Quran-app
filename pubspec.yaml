@@ -64,8 +64,11 @@ flutter:
     - assets/images/
     - assets/texture/
     - assets/letters/chapter1/
+    - assets/letters/chapter2/
+    - assets/letters/chapter3/
     - assets/audio/chapter1/
-    
+    - assets/audio/chapter2/
+    - assets/audio/chapter3/
     
     
     

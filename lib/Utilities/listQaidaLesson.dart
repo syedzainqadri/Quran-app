@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:quranapp/Screens/LearnQaidaScreens/Lesson01Screen.dart';
-import 'package:quranapp/Screens/LearnQaidaScreens/Lesson02Screen.dart';
 import 'package:quranapp/Screens/LearnQaidaScreens/Lesson03Screen.dart';
 import 'package:quranapp/Screens/LearnQaidaScreens/Lesson04Screen.dart';
 import 'package:quranapp/Screens/LearnQaidaScreens/Lesson05Screen.dart';
@@ -29,6 +28,8 @@ import 'package:quranapp/Screens/LearnQaidaScreens/Lesson27Screen.dart';
 import 'package:quranapp/Utilities/LessonsContentList/listLesson01.dart';
 import 'package:quranapp/Widgets/CustomLessonListTile.dart';
 
+import '../Screens/LearnQaidaScreens/Lesson02Screen.dart';
+
 final List<Widget> qaidaLessons = [
   CustomLessonListTile(
     screenName: Lesson01Screen(lessonModel: lessonDetails.first),
@@ -36,7 +37,9 @@ final List<Widget> qaidaLessons = [
     lessonNoU: '۱',
   ),
   CustomLessonListTile(
-    screenName: Lesson02Screen(), // 02 to 01 for testing
+    screenName: Lesson02Screen(
+      lessonModel: lessonDetails[1],
+    ), // 02 to 01 for testing
     lessonNo: '02',
     lessonNoU: '۲',
   ),

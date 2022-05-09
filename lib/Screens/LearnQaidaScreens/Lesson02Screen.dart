@@ -1,20 +1,17 @@
-import 'package:firebase_core/firebase_core.dart';
+import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:hive/hive.dart';
 import 'package:quranapp/Model/firebasefile.dart';
 import 'package:quranapp/Model/lesson.dart';
 import 'package:quranapp/Utilities/SliverWidgets.dart';
 import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Widgets/CustomWordCard.dart';
-import 'package:quranapp/Widgets/instruction_widget.dart';
-import 'package:quranapp/controllers/lesson02_controller%20.dart';
-import 'package:quranapp/firebaseApi/firebaseApi.dart';
 import 'package:showcaseview/showcaseview.dart';
-import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import "dart:core";
+
+import '../../controllers/lesson02_controller .dart';
 
 class Lesson02Screen extends StatefulWidget {
   final LessonModel lessonModel;
@@ -26,32 +23,21 @@ class Lesson02Screen extends StatefulWidget {
 }
 
 class _Lesson02ScreenState extends State<Lesson02Screen> {
-  Future<List<FirebaseFile>> files;
-  Future<List<FirebaseFile>> sounds;
-  Future<List<FirebaseFile>> instructions;
   GlobalKey _one = GlobalKey();
-  final box = Hive.box(DB_lesson);
+  // Future<List<FirebaseFile>> files;
+  // Future<List<FirebaseFile>> sounds;
+  Future<List<FirebaseFile>> instructions;
+  // GlobalKey _one = GlobalKey();
+  //final box = Hive.box(DB_lesson);
 
   @override
   void initState() {
     // box.put(DB_Current_Page_Lesson, widget.lessonModel.lessonNo);
     Get.put(Lesson02Controller());
 
-    instructions = FirebaseApi.listAll('instruction2/');
-
+    // instructions = FirebaseApi.listAll('instruction1/');
+    print(instructions);
     super.initState();
-  }
-
-  getfile() {
-    sounds = FirebaseApi.listAll('sound2/');
-    files = FirebaseApi.listAll('text2/');
-    return files;
-  }
-
-  @override
-  void dispose() {
-    Get.find<Lesson02Controller>().dispose();
-    super.dispose();
   }
 
   bool isPlaySound = false;
@@ -60,7 +46,7 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
     return ShowCaseWidget(
       blurValue: 1,
       autoPlay: false,
-      // autoPlayDelay: Duration(seconds: 3),
+      autoPlayDelay: Duration(seconds: 3),
       autoPlayLockEnable: false,
       onStart: (ind, key) {
         print("index=> $ind key=> $key");
@@ -69,125 +55,291 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
         print("index=> $index key=> $key");
       },
       builder: Builder(builder: (context) {
-        // if (!box.containsKey(widget.lessonModel.lessonNo))
-        //   WidgetsBinding.instance.addPostFrameCallback(
-        //       (_) => ShowCaseWidget.of(context).startShowCase([_one]));
         return SafeArea(
           child: Scaffold(
-              floatingActionButton: FloatingActionButton(
-                backgroundColor: kGreenColor,
-                child: Icon(
-                  CupertinoIcons.info,
-                  color: Colors.yellow,
-                  size: 40,
-                ),
-                onPressed: () {
-                  setState(() {
-                    isPlaySound = true;
-                  });
-                  showInstructionDialog(
-                      context: context,
-                      instructions: instructions,
-                      itemLength: 1,
-                      url:
-                          "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/instruction2%2Fi");
-                },
-              ),
-              body: FutureBuilder<List<FirebaseFile>>(
-                  future: getfile(),
-                  builder: (BuildContext context, AsyncSnapshot fsnapshot) {
-                    final files = fsnapshot?.data;
-                    if (fsnapshot.hasError) {
-                      return Container(
-                        child: Center(
-                          child: Text(fsnapshot.error.toString()),
-                        ),
-                      );
-                    }
+              floatingActionButton: Showcase(
+                description: "Instruction",
+                key: _one,
+                child: Obx(() {
+                  final controller = Get.find<Lesson02Controller>();
+                  return FloatingActionButton(
+                    onPressed: () async {
+                      // if (!box.containsKey(widget.lessonModel.lessonNo)) {
+                      //   box.put(widget.lessonModel.lessonNo, true);
+                      //   controller.updateCanDissmisse(false);
+                      // } else
+                      //   controller.updateCanDissmisse(true);
 
-                    return Directionality(
-                      textDirection: TextDirection.rtl,
-                      child: CustomScrollView(
-                        slivers: <Widget>[
-                          ///First sliver is the App Bar
-                          SliverAppBar(
-                            backgroundColor: kGreenLightColor,
-                            title: MyAppBar(
-                              Icon(
-                                Icons.ac_unit,
-                                size: 25,
+                      await showDialog(
+                        context: context,
+                        barrierDismissible: controller.canDissmisse.value,
+                        barrierColor: kGreenColor.withOpacity(0.3),
+                        builder: (builder) {
+                          return WillPopScope(
+                            onWillPop: () async =>
+                                controller.canDissmisse.value,
+                            child: AlertDialog(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(30),
                               ),
-                              () {},
-                            ),
-                            pinned: true,
-                            expandedHeight: 230,
-                            flexibleSpace: FlexibleSpaceBar(
-                              background: MyFlexibleAppBar(
-                                Padding(
-                                  padding: const EdgeInsets.only(bottom: 8.0),
-                                  child: Image.asset(
-                                      'assets/images/bismillah.png',
-                                      width: 80),
-                                ),
-                                Stack(
-                                  alignment: Alignment.center,
+                              insetPadding:
+                                  EdgeInsets.symmetric(horizontal: 20),
+                              titlePadding:
+                                  EdgeInsets.symmetric(horizontal: 15),
+                              content: SingleChildScrollView(
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  crossAxisAlignment: CrossAxisAlignment.end,
                                   children: [
-                                    Image.asset(
-                                      'assets/texture/lessonTexture.png',
-                                      width: 310,
+                                    Icon(Icons.api_outlined),
+                                    Text(
+                                      "حروف مفردات یعنی حروف تہجی 29 ہیں۔",
+                                      textAlign: TextAlign.end,
                                     ),
-                                    SvgPicture.network(
-                                      "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text2%2F0.svg?alt=media&token=c9029d17-018d-4cbb-9696-976520720b94",
+                                    Icon(Icons.api_outlined),
+                                    Text(
+                                      "ان 29 حروف میں 7 حروف ایسے ہیں جو ہر حال میں پر یعنی موٹے پڑھے جاتے ہیں ۔ انہیں حروف مستعلیہ کہتے ہیں اور وہ یہ ہیں : خ، ص، ض، غ، ط، ق، ظ ان کا مجموعہ خض ضغط قظ",
+                                      textAlign: TextAlign.end,
                                     ),
-                                    // Text(
-
-                                    //   // '${widget.lessonModel.title_eng} - ${widget.lessonModel.title_ar}',
-                                    //   style: TextStyle(
-                                    //     fontSize: 16,
-                                    //     fontWeight: FontWeight.bold,
-                                    //     color: kGoldenColor,
-                                    //   ),
-                                    // )
+                                    Icon(Icons.api_outlined),
+                                    Text(
+                                      "ب، ف، م،و ہونٹوں سے صرف یہ چار حروف ادا ہوتے ہیں۔ باقی حروف میں ہونٹ نہ ہلیں۔",
+                                      textAlign: TextAlign.end,
+                                    ),
+                                    Icon(Icons.api_outlined),
+                                    Text(
+                                      "ز، س، ص، کو ادا کرتے وقت سیٹی کی طرح آواز نکلتی ہے یہ حروف صغیر یہ کہلاتے ہیں۔",
+                                      textAlign: TextAlign.end,
+                                    ),
+                                    Icon(Icons.api_outlined),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceEvenly,
+                                      children: [
+                                        Column(
+                                          children: [
+                                            Text(
+                                              "✦",
+                                              style: TextStyle(fontSize: 10),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                            Text(
+                                              "✦✦",
+                                              style: TextStyle(fontSize: 10),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                            Text(
+                                              "------",
+                                              style: TextStyle(fontSize: 10),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ],
+                                        ),
+                                        Text(
+                                          "✦✦\n------\n✦✦",
+                                          style: TextStyle(fontSize: 10),
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "✦\n------\n✦",
+                                          style: TextStyle(fontSize: 10),
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Column(
+                                          children: [
+                                            Text(
+                                              "✦",
+                                              style: TextStyle(fontSize: 10),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                            Text(
+                                              "✦✦",
+                                              style: TextStyle(fontSize: 10),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ],
+                                        ),
+                                        Text(
+                                          "✦✦",
+                                          style: TextStyle(fontSize: 10),
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "✦",
+                                          style: TextStyle(fontSize: 10),
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " .قطوں کی پہچان کیجیے",
+                                          textAlign: TextAlign.end,
+                                        ),
+                                      ],
+                                    ),
+                                    Icon(Icons.api_outlined),
+                                    Text(
+                                      "حروف مفردات ادا کرتے وقت الف اور ہمزہ کو بغیر کھینچے پڑھا جائے گا اور جن حروف کے ساتھ الفٹ ہے ان کو دو حر کاٹ تک کھینچا جائے گا اور جن حروف کے ساتھ مد ت ہے ۔ ان کو پانچ حرکات تک کھینچ کر پڑھیں۔",
+                                      textAlign: TextAlign.end,
+                                    ),
                                   ],
                                 ),
                               ),
+                              actions: [
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    controller.canDissmisse.value
+                                        ? Text("")
+                                        : CircularCountDownTimer(
+                                            duration:
+                                                controller.canDissmisse.value
+                                                    ? 5
+                                                    : 5,
+                                            initialDuration: 0,
+                                            controller: CountDownController(),
+                                            width: 40,
+                                            height: 40,
+                                            ringColor: Colors.grey[300],
+                                            ringGradient: null,
+                                            fillColor: kGreenColor,
+                                            fillGradient: null,
+                                            backgroundColor: kGreenColor,
+                                            backgroundGradient: null,
+                                            strokeWidth: 3.0,
+                                            strokeCap: StrokeCap.round,
+                                            textStyle: TextStyle(
+                                                fontSize: 33.0,
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold),
+                                            textFormat: CountdownTextFormat.S,
+                                            isReverse: false,
+                                            isReverseAnimation: false,
+                                            isTimerTextShown: true,
+                                            autoStart: true,
+                                            onStart: () {
+                                              print('Countdown Started');
+                                            },
+                                            onComplete: () {
+                                              print('Countdown Ended');
+                                              Get.find<Lesson02Controller>()
+                                                  .updateCanDissmisse(true);
+                                              Get.back();
+                                            },
+                                          ),
+                                  ],
+                                ),
+                              ],
                             ),
-                          ),
+                          );
+                        },
+                      );
+                    },
+                    backgroundColor: controller.canDissmisse.value
+                        ? kGreenColor
+                        : kGreenColor,
+                    child: Icon(
+                      CupertinoIcons.info,
+                      color: Colors.yellow,
+                      size: 40,
+                    ),
+                  );
+                }),
+              ),
+              // floatingActionButton: FloatingActionButton(
+              //   backgroundColor: kGreenColor,
+              //   child: Icon(
+              //     CupertinoIcons.info,
+              //     color: Colors.yellow,
+              //     size: 40,
+              //   ),
+              //   onPressed: () {
+              //     setState(() {
+              //       isPlaySound = true;
+              //     });
+              //     // showInstructionDialog(
+              //     //     context: context,
+              //     //     instructions: instructions,
+              //     //     itemLength: 6,
+              //     //     url:
+              //     //         "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/instruction1%2Fi");
+              //   },
+              // ),
+              body: FutureBuilder<List<FirebaseFile>>(
+                  // future: getfile(),
+                  builder: (BuildContext context, AsyncSnapshot fsnapshot) {
+                final files = fsnapshot?.data;
+                if (fsnapshot.hasError) {
+                  return Container(
+                    child: Center(
+                      child: Text(fsnapshot.error.toString()),
+                    ),
+                  );
+                }
 
-                          SliverGrid(
-                            //  spacing: 7,
-                            // runSpacing: 10,
-                            delegate: SliverChildBuilderDelegate(
-                              (context, index) {
-                                // print(sounds[1].url);
-                                return CustomWordCard(
-                                    isPlaySound: isPlaySound,
-                                    word:
-                                        "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text2%2F${index + 1}.svg?alt=media&token=c9029d17-018d-4cbb-9696-976520720b94",
-                                    // subWord: sounds[index].url,
-                                    soundPath:
-                                        "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound2%2FL2%20${index + 1}.wav?alt=media&token=f7e01e1b-385c-4cac-8ad7-17c477a6d5c5");
-                              },
-                              childCount: 47,
+                return Directionality(
+                  textDirection: TextDirection.rtl,
+                  child: CustomScrollView(
+                    slivers: <Widget>[
+                      ///First sliver is the App Bar
+                      SliverAppBar(
+                        backgroundColor: kGreenLightColor,
+                        title: MyAppBar(
+                          Icon(
+                            Icons.ac_unit,
+                            size: 25,
+                          ),
+                          () {},
+                        ),
+                        pinned: true,
+                        expandedHeight: 230,
+                        flexibleSpace: FlexibleSpaceBar(
+                          background: MyFlexibleAppBar(
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Image.asset('assets/images/bismillah.png',
+                                  width: 80),
                             ),
-                            gridDelegate:
-                                SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisCount: 3,
-                              mainAxisSpacing: 10,
-                              crossAxisSpacing: 5,
-                              childAspectRatio: 1.0,
+                            Stack(
+                              alignment: Alignment.center,
+                              children: [
+                                Image.asset(
+                                  'assets/texture/lessonTexture.png',
+                                  width: 310,
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 10.0),
+                                  child: SvgPicture.asset(
+                                    "assets/images/bachonkochotishaklonkipehchankerwain.svg",
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
-                        ],
+                        ),
                       ),
-                    );
 
-                    // return Center(
-                    //   child: Container(
-                    //     child: CircularProgressIndicator(),
-                    //   ),
-                    // );
-                  })),
+                      SliverGrid(
+                        delegate: SliverChildBuilderDelegate(
+                          (context, index) {
+                            return CustomWordCard(
+                              isPlaySound: true,
+                              word: "assets/letters/chapter2/${index + 1}.svg",
+                              soundPath: "audio/chapter2/${index + 1}.wav",
+                            );
+                          },
+                          childCount: 49,
+                        ),
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          // mainAxisExtent: 70,
+                          crossAxisCount: 3,
+                          mainAxisSpacing: 10,
+                          crossAxisSpacing: 5,
+                          childAspectRatio: 1.0,
+                        ),
+                      ),
+                    ],
+                  ),
+                );
+              })),
         );
       }),
     );
