@@ -1,3 +1,4 @@
+import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -23,6 +24,7 @@ class Lesson01Screen extends StatefulWidget {
 }
 
 class _Lesson01ScreenState extends State<Lesson01Screen> {
+  GlobalKey _one = GlobalKey();
   // Future<List<FirebaseFile>> files;
   // Future<List<FirebaseFile>> sounds;
   Future<List<FirebaseFile>> instructions;
@@ -32,27 +34,12 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
   @override
   void initState() {
     // box.put(DB_Current_Page_Lesson, widget.lessonModel.lessonNo);
-    // Get.put(Lesson01Controller());
+    Get.put(Lesson01Controller());
 
     instructions = FirebaseApi.listAll('instruction1/');
     print(instructions);
-    // getfile();
     super.initState();
   }
-
-  getfile() {
-    // sounds = FirebaseApi.listAll('sound1/');
-    // files = FirebaseApi.listAll('text1/');
-    // print(sounds);
-    // print(files);
-    // return files;
-  }
-
-  // @override
-  // void dispose() {
-  //   Get.find<Lesson01Controller>().dispose();
-  //   super.dispose();
-  // }
 
   bool isPlaySound = false;
   @override
@@ -71,25 +58,212 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
       builder: Builder(builder: (context) {
         return SafeArea(
           child: Scaffold(
-              floatingActionButton: FloatingActionButton(
-                backgroundColor: kGreenColor,
-                child: Icon(
-                  CupertinoIcons.info,
-                  color: Colors.yellow,
-                  size: 40,
-                ),
-                onPressed: () {
-                  setState(() {
-                    isPlaySound = true;
-                  });
-                  showInstructionDialog(
-                      context: context,
-                      instructions: instructions,
-                      itemLength: 6,
-                      url:
-                          "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/instruction1%2Fi");
-                },
+              floatingActionButton: Showcase(
+                description: "Instruction",
+                key: _one,
+                child: Obx(() {
+                  final controller = Get.find<Lesson01Controller>();
+                  return FloatingActionButton(
+                    onPressed: () async {
+                      // if (!box.containsKey(widget.lessonModel.lessonNo)) {
+                      //   box.put(widget.lessonModel.lessonNo, true);
+                      //   controller.updateCanDissmisse(false);
+                      // } else
+                      //   controller.updateCanDissmisse(true);
+
+                      await showDialog(
+                        context: context,
+                        barrierDismissible: controller.canDissmisse.value,
+                        barrierColor: kGreenColor.withOpacity(0.3),
+                        builder: (builder) {
+                          return WillPopScope(
+                            onWillPop: () async =>
+                                controller.canDissmisse.value,
+                            child: AlertDialog(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(30),
+                              ),
+                              insetPadding:
+                                  EdgeInsets.symmetric(horizontal: 20),
+                              titlePadding:
+                                  EdgeInsets.symmetric(horizontal: 15),
+                              content: SingleChildScrollView(
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  crossAxisAlignment: CrossAxisAlignment.end,
+                                  children: [
+                                    Icon(Icons.api_outlined),
+                                    Text(
+                                      "حروف مفردات یعنی حروف تہجی 29 ہیں۔",
+                                      textAlign: TextAlign.end,
+                                    ),
+                                    Icon(Icons.api_outlined),
+                                    Text(
+                                      "ان 29 حروف میں 7 حروف ایسے ہیں جو ہر حال میں پر یعنی موٹے پڑھے جاتے ہیں ۔ انہیں حروف مستعلیہ کہتے ہیں اور وہ یہ ہیں : خ، ص، ض، غ، ط، ق، ظ ان کا مجموعہ خض ضغط قظ",
+                                      textAlign: TextAlign.end,
+                                    ),
+                                    Icon(Icons.api_outlined),
+                                    Text(
+                                      "ب، ف، م،و ہونٹوں سے صرف یہ چار حروف ادا ہوتے ہیں۔ باقی حروف میں ہونٹ نہ ہلیں۔",
+                                      textAlign: TextAlign.end,
+                                    ),
+                                    Icon(Icons.api_outlined),
+                                    Text(
+                                      "ز، س، ص، کو ادا کرتے وقت سیٹی کی طرح آواز نکلتی ہے یہ حروف صغیر یہ کہلاتے ہیں۔",
+                                      textAlign: TextAlign.end,
+                                    ),
+                                    Icon(Icons.api_outlined),
+                                    Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceEvenly,
+                                      children: [
+                                        Column(
+                                          children: [
+                                            Text(
+                                              "✦",
+                                              style: TextStyle(fontSize: 10),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                            Text(
+                                              "✦✦",
+                                              style: TextStyle(fontSize: 10),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                            Text(
+                                              "------",
+                                              style: TextStyle(fontSize: 10),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ],
+                                        ),
+                                        Text(
+                                          "✦✦\n------\n✦✦",
+                                          style: TextStyle(fontSize: 10),
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "✦\n------\n✦",
+                                          style: TextStyle(fontSize: 10),
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Column(
+                                          children: [
+                                            Text(
+                                              "✦",
+                                              style: TextStyle(fontSize: 10),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                            Text(
+                                              "✦✦",
+                                              style: TextStyle(fontSize: 10),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ],
+                                        ),
+                                        Text(
+                                          "✦✦",
+                                          style: TextStyle(fontSize: 10),
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          "✦",
+                                          style: TextStyle(fontSize: 10),
+                                          textAlign: TextAlign.center,
+                                        ),
+                                        Text(
+                                          " .قطوں کی پہچان کیجیے",
+                                          textAlign: TextAlign.end,
+                                        ),
+                                      ],
+                                    ),
+                                    Icon(Icons.api_outlined),
+                                    Text(
+                                      "حروف مفردات ادا کرتے وقت الف اور ہمزہ کو بغیر کھینچے پڑھا جائے گا اور جن حروف کے ساتھ الفٹ ہے ان کو دو حر کاٹ تک کھینچا جائے گا اور جن حروف کے ساتھ مد ت ہے ۔ ان کو پانچ حرکات تک کھینچ کر پڑھیں۔",
+                                      textAlign: TextAlign.end,
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              actions: [
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    controller.canDissmisse.value
+                                        ? Text("")
+                                        : CircularCountDownTimer(
+                                            duration:
+                                                controller.canDissmisse.value
+                                                    ? 5
+                                                    : 5,
+                                            initialDuration: 0,
+                                            controller: CountDownController(),
+                                            width: 40,
+                                            height: 40,
+                                            ringColor: Colors.grey[300],
+                                            ringGradient: null,
+                                            fillColor: kGreenColor,
+                                            fillGradient: null,
+                                            backgroundColor: kGreenColor,
+                                            backgroundGradient: null,
+                                            strokeWidth: 3.0,
+                                            strokeCap: StrokeCap.round,
+                                            textStyle: TextStyle(
+                                                fontSize: 33.0,
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold),
+                                            textFormat: CountdownTextFormat.S,
+                                            isReverse: false,
+                                            isReverseAnimation: false,
+                                            isTimerTextShown: true,
+                                            autoStart: true,
+                                            onStart: () {
+                                              print('Countdown Started');
+                                            },
+                                            onComplete: () {
+                                              print('Countdown Ended');
+                                              Get.find<Lesson01Controller>()
+                                                  .updateCanDissmisse(true);
+                                              Get.back();
+                                            },
+                                          ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                      );
+                    },
+                    backgroundColor: controller.canDissmisse.value
+                        ? kGreenColor
+                        : kGreenColor,
+                    child: Icon(
+                      CupertinoIcons.info,
+                      color: Colors.yellow,
+                      size: 40,
+                    ),
+                  );
+                }),
               ),
+              // floatingActionButton: FloatingActionButton(
+              //   backgroundColor: kGreenColor,
+              //   child: Icon(
+              //     CupertinoIcons.info,
+              //     color: Colors.yellow,
+              //     size: 40,
+              //   ),
+              //   onPressed: () {
+              //     setState(() {
+              //       isPlaySound = true;
+              //     });
+              //     // showInstructionDialog(
+              //     //     context: context,
+              //     //     instructions: instructions,
+              //     //     itemLength: 6,
+              //     //     url:
+              //     //         "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/instruction1%2Fi");
+              //   },
+              // ),
               body: FutureBuilder<List<FirebaseFile>>(
                   // future: getfile(),
                   builder: (BuildContext context, AsyncSnapshot fsnapshot) {
@@ -132,8 +306,8 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                                   'assets/texture/lessonTexture.png',
                                   width: 310,
                                 ),
-                                SvgPicture.network(
-                                  "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text1%2F0.svg?alt=media&token=c9029d17-018d-4cbb-9696-976520720b94",
+                                SvgPicture.asset(
+                                  "assets/images/harofemufradat.svg",
                                 ),
                               ],
                             ),
