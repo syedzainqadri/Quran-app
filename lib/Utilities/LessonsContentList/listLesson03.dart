@@ -2,19 +2,19 @@ import 'package:quranapp/Model/sub_list.dart';
 
 final List<SubListModel> listLesson03 = [
   SubListModel(
-    text: 'assets/text/lesson3/1.svg',
+    text: 'با',
     sound: 'sounds/Lesson03/L3 1.wav',
   ),
   SubListModel(
-    text: 'assets/text/lesson3/2.svg',
+    text: 'ا',
     sound: 'sounds/Lesson03/L3 2.wav',
   ),
   SubListModel(
-    text: 'assets/text/lesson3/3.svg',
+    text: 'لا',
     sound: 'sounds/Lesson03/L3 3.wav',
   ),
   SubListModel(
-    text: 'assets/text/lesson3/4.svg',
+    text: 'لا',
     sound: 'sounds/Lesson03/L3 4.wav',
   ),
   SubListModel(
