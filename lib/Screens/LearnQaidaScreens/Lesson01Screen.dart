@@ -245,25 +245,6 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                   );
                 }),
               ),
-              // floatingActionButton: FloatingActionButton(
-              //   backgroundColor: kGreenColor,
-              //   child: Icon(
-              //     CupertinoIcons.info,
-              //     color: Colors.yellow,
-              //     size: 40,
-              //   ),
-              //   onPressed: () {
-              //     setState(() {
-              //       isPlaySound = true;
-              //     });
-              //     // showInstructionDialog(
-              //     //     context: context,
-              //     //     instructions: instructions,
-              //     //     itemLength: 6,
-              //     //     url:
-              //     //         "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/instruction1%2Fi");
-              //   },
-              // ),
               body: FutureBuilder<List<FirebaseFile>>(
                   // future: getfile(),
                   builder: (BuildContext context, AsyncSnapshot fsnapshot) {
