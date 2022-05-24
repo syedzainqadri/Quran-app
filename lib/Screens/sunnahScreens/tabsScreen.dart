@@ -3,7 +3,6 @@ import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Utilities/youtubeController.dart';
 import 'package:quranapp/Widgets/CustomTabButton.dart';
 import 'package:quranapp/Widgets/CustomTabChild.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class TabSceern extends StatefulWidget {
   final String title;
@@ -13,7 +12,7 @@ class TabSceern extends StatefulWidget {
 }
 
 class _TabSceernState extends State<TabSceern> {
-  YoutubeController youtubeController = YoutubeController();
+  // YoutubeController youtubeController = YoutubeController();
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -76,16 +75,16 @@ class _TabSceernState extends State<TabSceern> {
               ),
               child: TabBarView(
                 children: [
-                  TabChild(
-                    contentText:
-                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-                    title: 'Title',
-                    child: YoutubePlayer(
-                      controller: youtubeController.controller,
-                      showVideoProgressIndicator: true,
-                      progressIndicatorColor: Colors.blueAccent,
-                    ),
-                  ),
+                  // TabChild(
+                  //   contentText:
+                  //       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                  //   title: 'Title',
+                  // child: YoutubePlayer(
+                  //   controller: youtubeController.controller,
+                  //   showVideoProgressIndicator: true,
+                  //   progressIndicatorColor: Colors.blueAccent,
+                  // ),
+                  // ),
                   TabChild(
                     contentText:
                         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",

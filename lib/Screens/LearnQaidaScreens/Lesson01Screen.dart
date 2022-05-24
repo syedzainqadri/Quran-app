@@ -8,11 +8,10 @@ import 'package:quranapp/Model/lesson.dart';
 import 'package:quranapp/Utilities/SliverWidgets.dart';
 import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Widgets/CustomWordCard.dart';
-import 'package:quranapp/Widgets/instruction_widget.dart';
 import 'package:quranapp/controllers/lesson01_controller.dart';
-import 'package:quranapp/firebaseApi/firebaseApi.dart';
 import 'package:showcaseview/showcaseview.dart';
 import "dart:core";
+import '../../Utilities/LessonsContentList/listLesson01.dart';
 
 class Lesson01Screen extends StatefulWidget {
   final LessonModel lessonModel;
@@ -25,18 +24,10 @@ class Lesson01Screen extends StatefulWidget {
 
 class _Lesson01ScreenState extends State<Lesson01Screen> {
   GlobalKey _one = GlobalKey();
-  // Future<List<FirebaseFile>> files;
-  // Future<List<FirebaseFile>> sounds;
   Future<List<FirebaseFile>> instructions;
-  // GlobalKey _one = GlobalKey();
-  //final box = Hive.box(DB_lesson);
-
   @override
   void initState() {
-    // box.put(DB_Current_Page_Lesson, widget.lessonModel.lessonNo);
     Get.put(Lesson01Controller());
-
-    // instructions = FirebaseApi.listAll('instruction1/');
     print(instructions);
     super.initState();
   }
@@ -65,12 +56,6 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                   final controller = Get.find<Lesson01Controller>();
                   return FloatingActionButton(
                     onPressed: () async {
-                      // if (!box.containsKey(widget.lessonModel.lessonNo)) {
-                      //   box.put(widget.lessonModel.lessonNo, true);
-                      //   controller.updateCanDissmisse(false);
-                      // } else
-                      //   controller.updateCanDissmisse(true);
-
                       await showDialog(
                         context: context,
                         barrierDismissible: controller.canDissmisse.value,
@@ -245,29 +230,10 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                   );
                 }),
               ),
-              // floatingActionButton: FloatingActionButton(
-              //   backgroundColor: kGreenColor,
-              //   child: Icon(
-              //     CupertinoIcons.info,
-              //     color: Colors.yellow,
-              //     size: 40,
-              //   ),
-              //   onPressed: () {
-              //     setState(() {
-              //       isPlaySound = true;
-              //     });
-              //     // showInstructionDialog(
-              //     //     context: context,
-              //     //     instructions: instructions,
-              //     //     itemLength: 6,
-              //     //     url:
-              //     //         "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/instruction1%2Fi");
-              //   },
-              // ),
               body: FutureBuilder<List<FirebaseFile>>(
                   // future: getfile(),
                   builder: (BuildContext context, AsyncSnapshot fsnapshot) {
-                final files = fsnapshot?.data;
+                // final files = fsnapshot?.data;
                 if (fsnapshot.hasError) {
                   return Container(
                     child: Center(
@@ -320,11 +286,11 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
                           (context, index) {
                             return CustomWordCard(
                               isPlaySound: true,
-                              word: "assets/letters/chapter1/${index + 1}.svg",
-                              soundPath: "audio/chapter1/${index + 1}.wav",
+                              word: _mylist[index].text.toString(),
+                              soundPath: _mylist[index].sound.toString(),
                             );
                           },
-                          childCount: 29,
+                          childCount: _mylist.length,
                         ),
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           // mainAxisExtent: 70,
@@ -342,4 +308,6 @@ class _Lesson01ScreenState extends State<Lesson01Screen> {
       }),
     );
   }
+
+  List _mylist = listLessonOne;
 }

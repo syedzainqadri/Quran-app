@@ -1,7 +1,6 @@
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:quranapp/Model/firebasefile.dart';
 import 'package:quranapp/Model/lesson.dart';
@@ -10,6 +9,8 @@ import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Widgets/CustomWordCard.dart';
 import 'package:showcaseview/showcaseview.dart';
 import "dart:core";
+import '../../Model/sub_list.dart';
+import '../../Utilities/LessonsContentList/listLesson03.dart';
 import '../../controllers/lesson03_controller.dart';
 
 class Lesson03Screen extends StatefulWidget {
@@ -63,12 +64,6 @@ class _Lesson03ScreenState extends State<Lesson03Screen> {
                   final controller = Get.find<Lesson03Controller>();
                   return FloatingActionButton(
                     onPressed: () async {
-                      // if (!box.containsKey(widget.lessonModel.lessonNo)) {
-                      //   box.put(widget.lessonModel.lessonNo, true);
-                      //   controller.updateCanDissmisse(false);
-                      // } else
-                      //   controller.updateCanDissmisse(true);
-
                       await showDialog(
                         context: context,
                         barrierDismissible: controller.canDissmisse.value,
@@ -92,22 +87,12 @@ class _Lesson03ScreenState extends State<Lesson03Screen> {
                                   children: [
                                     Icon(Icons.api_outlined),
                                     Text(
-                                      "حروف مفردات یعنی حروف تہجی 29 ہیں۔",
+                                      'دو یا اس سے زائدالفاز مل کر ایک مرکب بنتا ہے',
                                       textAlign: TextAlign.end,
                                     ),
                                     Icon(Icons.api_outlined),
                                     Text(
-                                      "ان 29 حروف میں 7 حروف ایسے ہیں جو ہر حال میں پر یعنی موٹے پڑھے جاتے ہیں ۔ انہیں حروف مستعلیہ کہتے ہیں اور وہ یہ ہیں : خ، ص، ض، غ، ط، ق، ظ ان کا مجموعہ خض ضغط قظ",
-                                      textAlign: TextAlign.end,
-                                    ),
-                                    Icon(Icons.api_outlined),
-                                    Text(
-                                      "ب، ف، م،و ہونٹوں سے صرف یہ چار حروف ادا ہوتے ہیں۔ باقی حروف میں ہونٹ نہ ہلیں۔",
-                                      textAlign: TextAlign.end,
-                                    ),
-                                    Icon(Icons.api_outlined),
-                                    Text(
-                                      "ز، س، ص، کو ادا کرتے وقت سیٹی کی طرح آواز نکلتی ہے یہ حروف صغیر یہ کہلاتے ہیں۔",
+                                      'حروف مرکبات الگ الگ کر کے یاد کر واہیں',
                                       textAlign: TextAlign.end,
                                     ),
                                     Icon(Icons.api_outlined),
@@ -175,10 +160,6 @@ class _Lesson03ScreenState extends State<Lesson03Screen> {
                                       ],
                                     ),
                                     Icon(Icons.api_outlined),
-                                    Text(
-                                      "حروف مفردات ادا کرتے وقت الف اور ہمزہ کو بغیر کھینچے پڑھا جائے گا اور جن حروف کے ساتھ الفٹ ہے ان کو دو حر کاٹ تک کھینچا جائے گا اور جن حروف کے ساتھ مد ت ہے ۔ ان کو پانچ حرکات تک کھینچ کر پڑھیں۔",
-                                      textAlign: TextAlign.end,
-                                    ),
                                   ],
                                 ),
                               ),
@@ -245,7 +226,7 @@ class _Lesson03ScreenState extends State<Lesson03Screen> {
               ),
               body: FutureBuilder<List<FirebaseFile>>(
                   builder: (BuildContext context, AsyncSnapshot fsnapshot) {
-                final files = fsnapshot?.data;
+                //  final files = fsnapshot?.data;
                 if (fsnapshot.hasError) {
                   return Container(
                     child: Center(
@@ -283,12 +264,14 @@ class _Lesson03ScreenState extends State<Lesson03Screen> {
                                   'assets/texture/lessonTexture.png',
                                   width: 310,
                                 ),
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 10.0),
-                                  child: SvgPicture.asset(
-                                    "assets/images/bachonkochotishaklonkipehchankerwain.svg",
+                                Container(
+                                  margin: EdgeInsets.only(top: 10),
+                                  child: Image.asset(
+                                    "assets/letters/c3.png",
+                                    height: MediaQuery.of(context).size.height *
+                                        0.05,
                                   ),
-                                ),
+                                )
                               ],
                             ),
                           ),
@@ -299,11 +282,11 @@ class _Lesson03ScreenState extends State<Lesson03Screen> {
                           (context, index) {
                             return CustomWordCard(
                               isPlaySound: true,
-                              word: "assets/letters/chapter3/${index + 1}.svg",
-                              soundPath: "audio/chapter3/${index + 1}.wav",
+                              word: _mylist[index].text.toString(),
+                              soundPath: _mylist[index].sound.toString(),
                             );
                           },
-                          childCount: 49,
+                          childCount: _mylist.length,
                         ),
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           // mainAxisExtent: 70,
@@ -321,4 +304,6 @@ class _Lesson03ScreenState extends State<Lesson03Screen> {
       }),
     );
   }
+
+  List<SubListModel> _mylist = listLesson03;
 }

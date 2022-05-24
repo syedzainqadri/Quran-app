@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quranapp/Model/sub_list.dart';
 
 class LessonModel {
   String lessonNo;

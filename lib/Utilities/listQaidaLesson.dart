@@ -25,10 +25,9 @@ import 'package:quranapp/Screens/LearnQaidaScreens/Lesson24Screen.dart';
 import 'package:quranapp/Screens/LearnQaidaScreens/Lesson25Screen.dart';
 import 'package:quranapp/Screens/LearnQaidaScreens/Lesson26Screen.dart';
 import 'package:quranapp/Screens/LearnQaidaScreens/Lesson27Screen.dart';
-import 'package:quranapp/Utilities/LessonsContentList/listLesson01.dart';
 import 'package:quranapp/Widgets/CustomLessonListTile.dart';
-
 import '../Screens/LearnQaidaScreens/Lesson02Screen.dart';
+import 'LessonsContentList/listLesson01.dart';
 
 final List<Widget> qaidaLessons = [
   CustomLessonListTile(

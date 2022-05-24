@@ -23,9 +23,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  get: ^3.26.0
+  get: ^4.6.5
   expansion_tile_card: ^2.0.0
-  youtube_player_flutter: ^6.1.0+7
+  #youtube_player_flutter: ^6.1.0+7
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -63,8 +63,7 @@ flutter:
   assets:
     - assets/images/
     - assets/texture/
-    - assets/letters/chapter1/
-    - assets/audio/chapter1/
+    - assets/letters/
     
     
 

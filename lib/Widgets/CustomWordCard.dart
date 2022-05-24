@@ -1,39 +1,42 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:get/get.dart';
-import 'package:hive/hive.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:quranapp/Utilities/constants.dart';
 
+// ignore: must_be_immutable
 class CustomWordCard extends StatelessWidget {
-  CustomWordCard({
-    @required this.word,
-    // this.subWord,
-    this.soundPath,
-    this.isPlaySound,
-  });
+  CustomWordCard(
+      {@required this.word,
+      // this.subWord,
+      this.soundPath,
+      this.isPlaySound,
+      this.svg});
 
   final String word;
+  String svg;
   // final String subWord;
   final bool isPlaySound;
   final String soundPath;
   // final audioPlayer = AudioCache();
   @override
   Widget build(BuildContext context) {
-    void playSound(String soundPath) async {
-      final audioPlayer = AudioCache();
-      // audioPlayer.fixedPlayer.stop();
-      await audioPlayer.play(soundPath,
-          mode: PlayerMode.LOW_LATENCY, stayAwake: false);
-    }
+    var audio = AudioPlayer();
+
+    // void playSound(String soundPath) async {
+
+    //   final audioPlayer = AudioCache();
+    //   // audioPlayer.fixedPlayer.stop();
+    //   await audioPlayer.play(soundPath,
+    //       mode: PlayerMode.LOW_LATENCY, stayAwake: false);
+    // }
 
     return GestureDetector(
       onTap: () {
         if (soundPath != '' && isPlaySound)
-          playSound(
-            soundPath,
-          );
+          audio.play(soundPath);
+        // playSound(
+        //   soundPath,
+        // );
         else
           getToast("Read The Instruction First!");
       },
@@ -61,12 +64,21 @@ class CustomWordCard extends StatelessWidget {
                   child: Container(
                       width: 90,
                       height: 50,
-                      child: SvgPicture.asset(
-                        word,
-                        placeholderBuilder: (context) => Center(
-                          child: Icon(Icons.image),
-                        ),
-                      ))),
+                      child: svg == null
+                          ? Center(
+                              child: Text(
+                              word.toString(),
+                              style: TextStyle(
+                                  fontSize:
+                                      word.toString().length > 3 ? 28 : 34,
+                                  fontWeight: FontWeight.bold),
+                            ))
+                          : SvgPicture.network(
+                              svg,
+                              placeholderBuilder: (context) => Center(
+                                child: Icon(Icons.image),
+                              ),
+                            ))),
             ],
           ),
         ),
@@ -77,7 +89,7 @@ class CustomWordCard extends StatelessWidget {
 
 showAlertDialog(BuildContext context) {
   // Create button
-  Widget okButton = FlatButton(
+  Widget okButton = ElevatedButton(
     child: Text("OK"),
     onPressed: () {
       Navigator.of(context).pop();

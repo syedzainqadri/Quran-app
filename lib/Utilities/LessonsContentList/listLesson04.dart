@@ -2,723 +2,1342 @@ import 'package:quranapp/Model/sub_list.dart';
 
 final List<SubListModel> listLesson04 = [
   SubListModel(
-    text: 'assets/text/lesson4/1.svg',
-    sound: 'sounds/Lesson04/L4 1.wav',
+    text: 'اَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%201.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+//1
   SubListModel(
-    text: 'assets/text/lesson4/2.svg',
-    sound: 'sounds/Lesson04/L4 2.wav',
+    text: 'بَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%202.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+//2
   SubListModel(
-    text: 'assets/text/lesson4/3.svg',
-    sound: 'sounds/Lesson04/L4 3.wav',
+    text: 'تَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%203.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+  //3
   SubListModel(
-    text: 'assets/text/lesson4/4.svg',
-    sound: 'sounds/Lesson04/L4 4.wav',
+    text: 'ثَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%204.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/5.svg',
-    sound: 'sounds/Lesson04/L4 5.wav',
+    text: 'جَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%205.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/6.svg',
-    sound: 'sounds/Lesson04/L4 6.wav',
+    text: 'حَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%206.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/7.svg',
-    sound: 'sounds/Lesson04/L4 7.wav',
+    text: 'خَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%207.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/8.svg',
-    sound: 'sounds/Lesson04/L4 8.wav',
+    text: 'دَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%208.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/9.svg',
-    sound: 'sounds/Lesson04/L4 9.wav',
+    text: 'ذَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%209.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/10.svg',
-    sound: 'sounds/Lesson04/L4 10.wav',
+    text: 'رَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2010.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/11.svg',
-    sound: 'sounds/Lesson04/L4 11.wav',
+    text: "زَ",
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2011.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/12.svg',
-    sound: 'sounds/Lesson04/L4 12.wav',
+    text: "سَ",
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2012.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/13.svg',
-    sound: 'sounds/Lesson04/L4 13.wav',
+    text: 'شَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2013.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/14.svg',
-    sound: 'sounds/Lesson04/L4 14.wav',
+    text: 'صَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2014.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/15.svg',
-    sound: 'sounds/Lesson04/L4 15.wav',
+    text: 'ضَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2015.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/16.svg',
-    sound: 'sounds/Lesson04/L4 16.wav',
+    text: 'طَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2016.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/17.svg',
-    sound: 'sounds/Lesson04/L4 17.wav',
+    text: 'ظَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2017.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/18.svg',
-    sound: 'sounds/Lesson04/L4 18.wav',
+    text: 'عَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2018.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/19.svg',
-    sound: 'sounds/Lesson04/L4 19.wav',
+    text: 'غَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2019.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/20.svg',
-    sound: 'sounds/Lesson04/L4 20.wav',
+    text: 'فَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2020.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/21.svg',
-    sound: 'sounds/Lesson04/L4 21.wav',
+    text: 'قَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2021.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/22.svg',
-    sound: 'sounds/Lesson04/L4 22.wav',
+    text: 'كَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2022.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/23.svg',
-    sound: 'sounds/Lesson04/L4 23.wav',
+    text: 'لَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2023.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/24.svg',
-    sound: 'sounds/Lesson04/L4 24.wav',
+    text: 'مَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2024.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/25.svg',
-    sound: 'sounds/Lesson04/L4 25.wav',
+    text: 'نَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2025.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/26.svg',
-    sound: 'sounds/Lesson04/L4 26.wav',
+    text: 'وَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2026.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/27.svg',
-    sound: 'sounds/Lesson04/L4 27.wav',
+    text: 'هَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2027.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/28.svg',
-    sound: 'sounds/Lesson04/L4 28.wav',
+    text: 'ءَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2028.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/29.svg',
-    sound: 'sounds/Lesson04/L4 29.wav',
+    text: 'ىَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2029.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/30.svg',
-    sound: 'sounds/Lesson04/L4 30.wav',
+    text: 'اِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2030.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/31.svg',
-    sound: 'sounds/Lesson04/L4 31.wav',
+    text: 'بِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2031.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/32.svg',
-    sound: 'sounds/Lesson04/L4 32.wav',
+    text: 'تِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2032.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/33.svg',
-    sound: 'sounds/Lesson04/L4 33.wav',
+    text: 'ثِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2033.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/34.svg',
-    sound: 'sounds/Lesson04/L4 34.wav',
+    text: 'ثِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2034.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/35.svg',
-    sound: 'sounds/Lesson04/L4 35.wav',
+    text: 'حِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2035.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/36.svg',
-    sound: 'sounds/Lesson04/L4 36.wav',
+    text: 'خِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2036.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/37.svg',
-    sound: 'sounds/Lesson04/L4 37.wav',
+    text: 'دِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2037.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/38.svg',
-    sound: 'sounds/Lesson04/L4 38.wav',
+    text: 'ذَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2038.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/39.svg',
-    sound: 'sounds/Lesson04/L4 39.wav',
+    text: 'رِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2039.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/40.svg',
-    sound: 'sounds/Lesson04/L4 40.wav',
+    text: 'زِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2040.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/41.svg',
-    sound: 'sounds/Lesson04/L4 41.wav',
+    text: 'شِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2042.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/42.svg',
-    sound: 'sounds/Lesson04/L4 42.wav',
+    text: 'صِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2043.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/43.svg',
-    sound: 'sounds/Lesson04/L4 43.wav',
+    text: 'ضِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2044.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/44.svg',
-    sound: 'sounds/Lesson04/L4 44.wav',
+    text: 'طِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2045.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/45.svg',
-    sound: 'sounds/Lesson04/L4 45.wav',
+    text: 'ظِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2046.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/46.svg',
-    sound: 'sounds/Lesson04/L4 46.wav',
+    text: 'عِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2047.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/47.svg',
-    sound: 'sounds/Lesson04/L4 47.wav',
+    text: 'غِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2048.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/48.svg',
-    sound: 'sounds/Lesson04/L4 48.wav',
+    text: 'فِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2049.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/49.svg',
-    sound: 'sounds/Lesson04/L4 49.wav',
+    text: 'قِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2050.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/50.svg',
-    sound: 'sounds/Lesson04/L4 50.wav',
+    text: 'كِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2051.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/51.svg',
-    sound: 'sounds/Lesson04/L4 51.wav',
+    text: 'لِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2052.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/52.svg',
-    sound: 'sounds/Lesson04/L4 52.wav',
+    text: 'مِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2053.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/53.svg',
-    sound: 'sounds/Lesson04/L4 53.wav',
+    text: 'نِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2054.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/54.svg',
-    sound: 'sounds/Lesson04/L4 54.wav',
+    text: 'وِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2055.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/55.svg',
-    sound: 'sounds/Lesson04/L4 55.wav',
+    text: 'هِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2056.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/56.svg',
-    sound: 'sounds/Lesson04/L4 56.wav',
+    text: 'ءِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2057.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/57.svg',
-    sound: 'sounds/Lesson04/L4 57.wav',
+    text: 'ىِ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2058.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/58.svg',
-    sound: 'sounds/Lesson04/L4 58.wav',
+    text: 'اُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2059.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/59.svg',
-    sound: 'sounds/Lesson04/L4 59.wav',
+    text: 'بُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2060.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/60.svg',
-    sound: 'sounds/Lesson04/L4 60.wav',
+    text: 'تُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2061.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/61.svg',
-    sound: 'sounds/Lesson04/L4 61.wav',
+    text: 'ثُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2062.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/62.svg',
-    sound: 'sounds/Lesson04/L4 62.wav',
+    text: 'جُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2063.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/63.svg',
-    sound: 'sounds/Lesson04/L4 63.wav',
+    text: 'حُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2064.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/64.svg',
-    sound: 'sounds/Lesson04/L4 64.wav',
+    text: 'خُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2065.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/65.svg',
-    sound: 'sounds/Lesson04/L4 65.wav',
+    text: 'دُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2066.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/66.svg',
-    sound: 'sounds/Lesson04/L4 66.wav',
+    text: 'ذُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2067.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/67.svg',
-    sound: 'sounds/Lesson04/L4 67.wav',
+    text: 'رُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2068.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/68.svg',
-    sound: 'sounds/Lesson04/L4 68.wav',
+    text: 'زُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2069.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/69.svg',
-    sound: 'sounds/Lesson04/L4 69.wav',
+    text: 'صُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2070.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
+  //---------
+
   SubListModel(
-    text: 'assets/text/lesson4/70.svg',
-    sound: 'sounds/Lesson04/L4 70.wav',
+    text: 'ضُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2071.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/71.svg',
-    sound: 'sounds/Lesson04/L4 71.wav',
+    text: 'طُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2072.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/72.svg',
-    sound: 'sounds/Lesson04/L4 72.wav',
+    text: 'ظُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2073.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/73.svg',
-    sound: 'sounds/Lesson04/L4 73.wav',
+    text: 'عُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2074.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/74.svg',
-    sound: 'sounds/Lesson04/L4 74.wav',
+    text: 'غُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2075.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/75.svg',
-    sound: 'sounds/Lesson04/L4 75.wav',
+    text: 'فُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2076.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/76.svg',
-    sound: 'sounds/Lesson04/L4 76.wav',
+    text: 'قُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2077.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/77.svg',
-    sound: 'sounds/Lesson04/L4 77.wav',
+    text: 'كُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2078.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/78.svg',
-    sound: 'sounds/Lesson04/L4 78.wav',
+    text: 'لُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2079.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/79.svg',
-    sound: 'sounds/Lesson04/L4 79.wav',
+    text: 'نُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2080.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
+
   SubListModel(
-    text: 'assets/text/lesson4/80.svg',
-    sound: 'sounds/Lesson04/L4 80.wav',
+    text: "هُ",
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2081.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/81.svg',
-    sound: 'sounds/Lesson04/L4 81.wav',
+    text: 'ءُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2083.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
   SubListModel(
-    text: 'assets/text/lesson4/82.svg',
-    sound: 'sounds/Lesson04/L4 82.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/83.svg',
-    sound: 'sounds/Lesson04/L4 83.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/84.svg',
-    sound: 'sounds/Lesson04/L4 84.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/85.svg',
-    sound: 'sounds/Lesson04/L4 85.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/86.svg',
-    sound: 'sounds/Lesson04/L4 86.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/87.svg',
-    sound: 'sounds/Lesson04/L4 87.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/88.svg',
-    sound: 'sounds/Lesson04/L4 88.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/89.svg',
-    sound: 'sounds/Lesson04/L4 89.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/90.svg',
-    sound: 'sounds/Lesson04/L4 90.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/91.svg',
-    sound: 'sounds/Lesson04/L4 91.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/92.svg',
-    sound: 'sounds/Lesson04/L4 92.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/93.svg',
-    sound: 'sounds/Lesson04/L4 93.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/94.svg',
-    sound: 'sounds/Lesson04/L4 94.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/95.svg',
-    sound: 'sounds/Lesson04/L4 95.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/96.svg',
-    sound: 'sounds/Lesson04/L4 96.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/97.svg',
-    sound: 'sounds/Lesson04/L4 97.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/98.svg',
-    sound: 'sounds/Lesson04/L4 98.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/99.svg',
-    sound: 'sounds/Lesson04/L4 99.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/100.svg',
-    sound: 'sounds/Lesson04/L4 100.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/101.svg',
-    sound: 'sounds/Lesson04/L4 101.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/102.svg',
-    sound: 'sounds/Lesson04/L4 102.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/103.svg',
-    sound: 'sounds/Lesson04/L4 103.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/104.svg',
-    sound: 'sounds/Lesson04/L4 104.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/105.svg',
-    sound: 'sounds/Lesson04/L4 105.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/106.svg',
-    sound: 'sounds/Lesson04/L4 106.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/107.svg',
-    sound: 'sounds/Lesson04/L4 107.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/108.svg',
-    sound: 'sounds/Lesson04/L4 108.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/109.svg',
-    sound: 'sounds/Lesson04/L4 109.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/110.svg',
-    sound: 'sounds/Lesson04/L4 110.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/111.svg',
-    sound: 'sounds/Lesson04/L4 111.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/112.svg',
-    sound: 'sounds/Lesson04/L4 112.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/113.svg',
-    sound: 'sounds/Lesson04/L4 113.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/114.svg',
-    sound: 'sounds/Lesson04/L4 114.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/115.svg',
-    sound: 'sounds/Lesson04/L4 115.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/116.svg',
-    sound: 'sounds/Lesson04/L4 116.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/117.svg',
-    sound: 'sounds/Lesson04/L4 117.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/118.svg',
-    sound: 'sounds/Lesson04/L4 118.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/119.svg',
-    sound: 'sounds/Lesson04/L4 119.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/120.svg',
-    sound: 'sounds/Lesson04/L4 120.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/121.svg',
-    sound: 'sounds/Lesson04/L4 121.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/122.svg',
-    sound: 'sounds/Lesson04/L4 122.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/123.svg',
-    sound: 'sounds/Lesson04/L4 123.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/124.svg',
-    sound: 'sounds/Lesson04/L4 124.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/125.svg',
-    sound: 'sounds/Lesson04/L4 125.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/126.svg',
-    sound: 'sounds/Lesson04/L4 126.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/127.svg',
-    sound: 'sounds/Lesson04/L4 127.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/128.svg',
-    sound: 'sounds/Lesson04/L4 128.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/129.svg',
-    sound: 'sounds/Lesson04/L4 129.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/130.svg',
-    sound: 'sounds/Lesson04/L4 130.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/131.svg',
-    sound: 'sounds/Lesson04/L4 131.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/132.svg',
-    sound: 'sounds/Lesson04/L4 132.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/133.svg',
-    sound: 'sounds/Lesson04/L4 133.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/134.svg',
-    sound: 'sounds/Lesson04/L4 134.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/135.svg',
-    sound: 'sounds/Lesson04/L4 135.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/136.svg',
-    sound: 'sounds/Lesson04/L4 136.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/137.svg',
-    sound: 'sounds/Lesson04/L4 137.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/138.svg',
-    sound: 'sounds/Lesson04/L4 138.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/139.svg',
-    sound: 'sounds/Lesson04/L4 139.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/140.svg',
-    sound: 'sounds/Lesson04/L4 140.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/141.svg',
-    sound: 'sounds/Lesson04/L4 141.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/142.svg',
-    sound: 'sounds/Lesson04/L4 142.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/143.svg',
-    sound: 'sounds/Lesson04/L4 143.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/144.svg',
-    sound: 'sounds/Lesson04/L4 144.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/145.svg',
-    sound: 'sounds/Lesson04/L4 145.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/146.svg',
-    sound: 'sounds/Lesson04/L4 146.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/147.svg',
-    sound: 'sounds/Lesson04/L4 147.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/148.svg',
-    sound: 'sounds/Lesson04/L4 148.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/149.svg',
-    sound: 'sounds/Lesson04/L4 149.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/150.svg',
-    sound: 'sounds/Lesson04/L4 150.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/151.svg',
-    sound: 'sounds/Lesson04/L4 151.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/152.svg',
-    sound: 'sounds/Lesson04/L4 152.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/153.svg',
-    sound: 'sounds/Lesson04/L4 153.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/154.svg',
-    sound: 'sounds/Lesson04/L4 154.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/155.svg',
-    sound: 'sounds/Lesson04/L4 155.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/156.svg',
-    sound: 'sounds/Lesson04/L4 156.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/157.svg',
-    sound: 'sounds/Lesson04/L4 157.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/158.svg',
-    sound: 'sounds/Lesson04/L4 158.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/159.svg',
-    sound: 'sounds/Lesson04/L4 159.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/160.svg',
-    sound: 'sounds/Lesson04/L4 160.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/161.svg',
-    sound: 'sounds/Lesson04/L4 161.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/162.svg',
-    sound: 'sounds/Lesson04/L4 162.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/163.svg',
-    sound: 'sounds/Lesson04/L4 163.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/164.svg',
-    sound: 'sounds/Lesson04/L4 164.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/165.svg',
-    sound: 'sounds/Lesson04/L4 165.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/166.svg',
-    sound: 'sounds/Lesson04/L4 166.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/167.svg',
-    sound: 'sounds/Lesson04/L4 167.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/168.svg',
-    sound: 'sounds/Lesson04/L4 168.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/169.svg',
-    sound: 'sounds/Lesson04/L4 169.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/170.svg',
-    sound: 'sounds/Lesson04/L4 170.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/171.svg',
-    sound: 'sounds/Lesson04/L4 171.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/172.svg',
-    sound: 'sounds/Lesson04/L4 172.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/173.svg',
-    sound: 'sounds/Lesson04/L4 173.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/174.svg',
-    sound: 'sounds/Lesson04/L4 174.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/175.svg',
-    sound: 'sounds/Lesson04/L4 175.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/176.svg',
-    sound: 'sounds/Lesson04/L4 176.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/177.svg',
-    sound: 'sounds/Lesson04/L4 177.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/178.svg',
-    sound: 'sounds/Lesson04/L4 178.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/179.svg',
-    sound: 'sounds/Lesson04/L4 179.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson4/180.svg',
-    sound: 'sounds/Lesson04/L4 180.wav',
+    text: 'ىُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2084.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
   ),
 ];
+
+
+
+
+
+
+
+
+
+// import 'package:quranapp/Model/sub_list.dart';
+
+// final List<SubListModel> listLesson04 = [
+//   SubListModel(
+//     text: 'اَ',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: 'بَ',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: 'تَ',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: "ثَ",
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: 'جَ',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: 'ج',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+// ];
+
+
+
+
+
+
+// import 'package:quranapp/Model/sub_list.dart';
+
+// final List<SubListModel> listLesson04 = [
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F1.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%201.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+// //1
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F2.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%202.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+// //2
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F3.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%203.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   //3
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F4.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%204.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F5.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%205.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F6.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%206.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F7.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%207.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F8.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%208.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F9.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%209.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F10.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2010.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F11.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2011.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F12.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2012.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F13.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2013.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F14.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2014.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F15.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2015.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F16.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2016.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F17.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2017.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F18.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2018.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F19.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2019.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F20.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2020.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F21.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2021.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F22.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2022.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F23.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2023.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F24.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2024.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F25.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2025.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F26.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2026.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F27.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2027.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F28.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2028.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F29.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2029.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F30.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2030.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F31.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2031.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F32.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2032.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F33.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2033.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F34.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2034.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F35.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2035.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F36.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2036.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F37.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2037.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F38.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2038.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F39.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2039.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F40.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2040.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F41.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2042.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F42.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2043.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F43.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2044.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F44.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2045.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F45.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2046.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F46.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2047.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F47.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2048.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F48.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2049.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F49.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2050.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F50.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2051.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F51.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2052.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F52.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2053.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F53.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2054.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F54.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2055.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F55.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2056.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F56.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2057.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F57.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2058.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F58.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2059.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F59.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2060.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F60.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2061.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F61.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2062.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   //----------------
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F62.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2063.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F63.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2064.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F64.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2065.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F65.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2066.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F66.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2067.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F67.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2068.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F68.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2069.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F69.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2070.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+
+//   //---------
+
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F70.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2071.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F71.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2072.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F72.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2073.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F73.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2074.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F74.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2075.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F75.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2076.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F76.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2077.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F77.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2078.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F78.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2079.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F79.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2080.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F80.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2081.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F82.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2083.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F84.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2084.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F85.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2085.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F86.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2086.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F87.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2087.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F88.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2088.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F89.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2089.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+//   SubListModel(
+//     text:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text4%2F90.svg?alt=media&token=473ae9b5-7eed-4c76-9953-1a1ff2406110',
+//     sub_text: '',
+//     sound:
+//         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound4%2FL4%2090.wav?alt=media&token=32744048-6a6f-4a52-8423-f8c29238debf',
+//   ),
+// ];
+
+
+
+
+
+
+
+
+
+// import 'package:quranapp/Model/sub_list.dart';
+
+// final List<SubListModel> listLesson04 = [
+//   SubListModel(
+//     text: 'اَ',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: 'بَ',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: 'تَ',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: "ثَ",
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: 'جَ',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: 'ج',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+//   SubListModel(
+//     text: '',
+//     sub_text: '',
+//     sound: '',
+//   ),
+// ];

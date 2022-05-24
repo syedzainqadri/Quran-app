@@ -8,10 +8,10 @@ import 'package:quranapp/Model/lesson.dart';
 import 'package:quranapp/Utilities/SliverWidgets.dart';
 import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Widgets/CustomWordCard.dart';
+import 'package:quranapp/controllers/lesson01_controller.dart';
 import 'package:showcaseview/showcaseview.dart';
 import "dart:core";
-
-import '../../controllers/lesson02_controller .dart';
+import '../../Utilities/LessonsContentList/listLesson02.dart';
 
 class Lesson02Screen extends StatefulWidget {
   final LessonModel lessonModel;
@@ -24,18 +24,10 @@ class Lesson02Screen extends StatefulWidget {
 
 class _Lesson02ScreenState extends State<Lesson02Screen> {
   GlobalKey _one = GlobalKey();
-  // Future<List<FirebaseFile>> files;
-  // Future<List<FirebaseFile>> sounds;
   Future<List<FirebaseFile>> instructions;
-  // GlobalKey _one = GlobalKey();
-  //final box = Hive.box(DB_lesson);
-
   @override
   void initState() {
-    // box.put(DB_Current_Page_Lesson, widget.lessonModel.lessonNo);
-    Get.put(Lesson02Controller());
-
-    // instructions = FirebaseApi.listAll('instruction1/');
+    Get.put(Lesson01Controller());
     print(instructions);
     super.initState();
   }
@@ -61,15 +53,9 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
                 description: "Instruction",
                 key: _one,
                 child: Obx(() {
-                  final controller = Get.find<Lesson02Controller>();
+                  final controller = Get.find<Lesson01Controller>();
                   return FloatingActionButton(
                     onPressed: () async {
-                      // if (!box.containsKey(widget.lessonModel.lessonNo)) {
-                      //   box.put(widget.lessonModel.lessonNo, true);
-                      //   controller.updateCanDissmisse(false);
-                      // } else
-                      //   controller.updateCanDissmisse(true);
-
                       await showDialog(
                         context: context,
                         barrierDismissible: controller.canDissmisse.value,
@@ -93,22 +79,7 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
                                   children: [
                                     Icon(Icons.api_outlined),
                                     Text(
-                                      "حروف مفردات یعنی حروف تہجی 29 ہیں۔",
-                                      textAlign: TextAlign.end,
-                                    ),
-                                    Icon(Icons.api_outlined),
-                                    Text(
-                                      "ان 29 حروف میں 7 حروف ایسے ہیں جو ہر حال میں پر یعنی موٹے پڑھے جاتے ہیں ۔ انہیں حروف مستعلیہ کہتے ہیں اور وہ یہ ہیں : خ، ص، ض، غ، ط، ق، ظ ان کا مجموعہ خض ضغط قظ",
-                                      textAlign: TextAlign.end,
-                                    ),
-                                    Icon(Icons.api_outlined),
-                                    Text(
-                                      "ب، ف، م،و ہونٹوں سے صرف یہ چار حروف ادا ہوتے ہیں۔ باقی حروف میں ہونٹ نہ ہلیں۔",
-                                      textAlign: TextAlign.end,
-                                    ),
-                                    Icon(Icons.api_outlined),
-                                    Text(
-                                      "ز، س، ص، کو ادا کرتے وقت سیٹی کی طرح آواز نکلتی ہے یہ حروف صغیر یہ کہلاتے ہیں۔",
+                                      'بچوں کو چھوتی شکلوں کی پہچان کر وائیں',
                                       textAlign: TextAlign.end,
                                     ),
                                     Icon(Icons.api_outlined),
@@ -116,25 +87,6 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceEvenly,
                                       children: [
-                                        Column(
-                                          children: [
-                                            Text(
-                                              "✦",
-                                              style: TextStyle(fontSize: 10),
-                                              textAlign: TextAlign.center,
-                                            ),
-                                            Text(
-                                              "✦✦",
-                                              style: TextStyle(fontSize: 10),
-                                              textAlign: TextAlign.center,
-                                            ),
-                                            Text(
-                                              "------",
-                                              style: TextStyle(fontSize: 10),
-                                              textAlign: TextAlign.center,
-                                            ),
-                                          ],
-                                        ),
                                         Text(
                                           "✦✦\n------\n✦✦",
                                           style: TextStyle(fontSize: 10),
@@ -176,10 +128,6 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
                                       ],
                                     ),
                                     Icon(Icons.api_outlined),
-                                    Text(
-                                      "حروف مفردات ادا کرتے وقت الف اور ہمزہ کو بغیر کھینچے پڑھا جائے گا اور جن حروف کے ساتھ الفٹ ہے ان کو دو حر کاٹ تک کھینچا جائے گا اور جن حروف کے ساتھ مد ت ہے ۔ ان کو پانچ حرکات تک کھینچ کر پڑھیں۔",
-                                      textAlign: TextAlign.end,
-                                    ),
                                   ],
                                 ),
                               ),
@@ -220,7 +168,7 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
                                             },
                                             onComplete: () {
                                               print('Countdown Ended');
-                                              Get.find<Lesson02Controller>()
+                                              Get.find<Lesson01Controller>()
                                                   .updateCanDissmisse(true);
                                               Get.back();
                                             },
@@ -244,29 +192,10 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
                   );
                 }),
               ),
-              // floatingActionButton: FloatingActionButton(
-              //   backgroundColor: kGreenColor,
-              //   child: Icon(
-              //     CupertinoIcons.info,
-              //     color: Colors.yellow,
-              //     size: 40,
-              //   ),
-              //   onPressed: () {
-              //     setState(() {
-              //       isPlaySound = true;
-              //     });
-              //     // showInstructionDialog(
-              //     //     context: context,
-              //     //     instructions: instructions,
-              //     //     itemLength: 6,
-              //     //     url:
-              //     //         "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/instruction1%2Fi");
-              //   },
-              // ),
               body: FutureBuilder<List<FirebaseFile>>(
                   // future: getfile(),
                   builder: (BuildContext context, AsyncSnapshot fsnapshot) {
-                final files = fsnapshot?.data;
+                // final files = fsnapshot?.data;
                 if (fsnapshot.hasError) {
                   return Container(
                     child: Center(
@@ -305,12 +234,13 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
                                   'assets/texture/lessonTexture.png',
                                   width: 310,
                                 ),
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 10.0),
-                                  child: SvgPicture.asset(
-                                    "assets/images/bachonkochotishaklonkipehchankerwain.svg",
-                                  ),
-                                ),
+                                Text(
+                                  "بچوں کو چھوتی شکلوں کی پہچان کر وائیں",
+                                  style: TextStyle(color: Colors.red),
+                                )
+                                // SvgPicture.asset(
+                                //   "assets/images/harofemufradat.svg",
+                                // ),
                               ],
                             ),
                           ),
@@ -322,11 +252,13 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
                           (context, index) {
                             return CustomWordCard(
                               isPlaySound: true,
-                              word: "assets/letters/chapter2/${index + 1}.svg",
-                              soundPath: "audio/chapter2/${index + 1}.wav",
+                              word: "", //_mylist[index].text.toString(),
+                              svg:
+                                  "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text2%2F${index + 1}.svg?alt=media&token=7d6a8ad0-6a1f-4e87-9dfb-4bd478d578f9",
+                              soundPath: _mylist[index].sound.toString(),
                             );
                           },
-                          childCount: 49,
+                          childCount: _mylist.length,
                         ),
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           // mainAxisExtent: 70,
@@ -344,4 +276,12 @@ class _Lesson02ScreenState extends State<Lesson02Screen> {
       }),
     );
   }
+
+  List _mylist = listLesson02;
 }
+
+
+
+
+
+// "https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/text2%2F${index + 1}.svg?alt=media&token=7d6a8ad0-6a1f-4e87-9dfb-4bd478d578f9",
