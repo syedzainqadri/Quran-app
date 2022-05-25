@@ -2,555 +2,378 @@ import 'package:quranapp/Model/sub_list.dart';
 
 final List<SubListModel> listLesson09 = [
   SubListModel(
-    text: 'assets/text/lesson9/1.svg',
-    sound: 'sounds/Lesson04/L4 1.wav',
+    text: 'بَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%201.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/2.svg',
-    sound: 'sounds/Lesson04/L4 2.wav',
+    text: 'بُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%202.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/3.svg',
-    sound: 'sounds/Lesson04/L4 3.wav',
+    text: 'بِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%203.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/4.svg',
-    sound: 'sounds/Lesson04/L4 4.wav',
+    text: 'تَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%204.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/5.svg',
-    sound: 'sounds/Lesson04/L4 5.wav',
+    text: 'تُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%205.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/6.svg',
-    sound: 'sounds/Lesson04/L4 6.wav',
+    text: 'تِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%206.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/7.svg',
-    sound: 'sounds/Lesson04/L4 7.wav',
+    text: 'ثَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%207.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/8.svg',
-    sound: 'sounds/Lesson04/L4 8.wav',
+    text: 'ثُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%208.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/9.svg',
-    sound: 'sounds/Lesson04/L4 9.wav',
+    text: 'ثِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%209.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/10.svg',
-    sound: 'sounds/Lesson04/L4 10.wav',
+    text: 'جَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2010.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/11.svg',
-    sound: 'sounds/Lesson04/L4 11.wav',
+    text: 'جُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2011.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/12.svg',
-    sound: 'sounds/Lesson04/L4 12.wav',
+    text: 'جِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2012.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/13.svg',
-    sound: 'sounds/Lesson04/L4 13.wav',
+    text: 'حَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2013.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/14.svg',
-    sound: 'sounds/Lesson04/L4 14.wav',
+    text: 'حُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2014.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/15.svg',
-    sound: 'sounds/Lesson04/L4 15.wav',
+    text: 'حِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2015.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/16.svg',
-    sound: 'sounds/Lesson04/L4 16.wav',
+    text: 'خَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2016.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/17.svg',
-    sound: 'sounds/Lesson04/L4 17.wav',
+    text: 'خُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2017.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/18.svg',
-    sound: 'sounds/Lesson04/L4 18.wav',
+    text: 'خِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2018.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/19.svg',
-    sound: 'sounds/Lesson04/L4 19.wav',
+    text: 'دَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2019.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/20.svg',
-    sound: 'sounds/Lesson04/L4 20.wav',
+    text: 'دُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2020.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/21.svg',
-    sound: 'sounds/Lesson04/L4 21.wav',
+    text: 'دِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2021.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/22.svg',
-    sound: 'sounds/Lesson04/L4 22.wav',
+    text: 'ذَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2022.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/23.svg',
-    sound: 'sounds/Lesson04/L4 23.wav',
+    text: 'ذُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2023.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/24.svg',
-    sound: 'sounds/Lesson04/L4 24.wav',
+    text: 'ذِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2024.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/25.svg',
-    sound: 'sounds/Lesson04/L4 25.wav',
+    text: 'رَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2025.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/26.svg',
-    sound: 'sounds/Lesson04/L4 26.wav',
+    text: 'رُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2026.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/27.svg',
-    sound: 'sounds/Lesson04/L4 27.wav',
+    text: 'رِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2027.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/28.svg',
-    sound: 'sounds/Lesson04/L4 28.wav',
+    text: 'زَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2028.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/29.svg',
-    sound: 'sounds/Lesson04/L4 29.wav',
+    text: 'زُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2029.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/30.svg',
-    sound: 'sounds/Lesson04/L4 30.wav',
+    text: 'زِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2030.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/31.svg',
-    sound: 'sounds/Lesson04/L4 31.wav',
+    text: 'سَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2031.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/32.svg',
-    sound: 'sounds/Lesson04/L4 32.wav',
+    text: 'سُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2032.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/33.svg',
-    sound: 'sounds/Lesson04/L4 33.wav',
+    text: 'سِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2033.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/34.svg',
-    sound: 'sounds/Lesson04/L4 34.wav',
+    text: 'شَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2034.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/35.svg',
-    sound: 'sounds/Lesson04/L4 35.wav',
+    text: 'شُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2035.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/36.svg',
-    sound: 'sounds/Lesson04/L4 36.wav',
+    text: 'شِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2036.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/37.svg',
-    sound: 'sounds/Lesson04/L4 37.wav',
+    text: 'صَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2037.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/38.svg',
-    sound: 'sounds/Lesson04/L4 38.wav',
+    text: 'صُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2038.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/39.svg',
-    sound: 'sounds/Lesson04/L4 39.wav',
+    text: 'صِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2039.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/40.svg',
-    sound: 'sounds/Lesson04/L4 40.wav',
+    text: 'ضَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2040.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/41.svg',
-    sound: 'sounds/Lesson04/L4 41.wav',
+    text: 'ضُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2041.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/42.svg',
-    sound: 'sounds/Lesson04/L4 42.wav',
+    text: 'ضِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2042.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/43.svg',
-    sound: 'sounds/Lesson04/L4 43.wav',
+    text: 'طَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2043.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/44.svg',
-    sound: 'sounds/Lesson04/L4 44.wav',
+    text: 'طُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2044.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/45.svg',
-    sound: 'sounds/Lesson04/L4 45.wav',
+    text: 'طِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2045.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/46.svg',
-    sound: 'sounds/Lesson04/L4 46.wav',
+    text: 'ظَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2046.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/47.svg',
-    sound: 'sounds/Lesson04/L4 47.wav',
+    text: 'ظُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2047.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/48.svg',
-    sound: 'sounds/Lesson04/L4 48.wav',
+    text: 'ظِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2048.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/49.svg',
-    sound: 'sounds/Lesson04/L4 49.wav',
+    text: 'عَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2049.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/50.svg',
-    sound: 'sounds/Lesson04/L4 50.wav',
+    text: 'عُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2050.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/51.svg',
-    sound: 'sounds/Lesson04/L4 51.wav',
+    text: 'عِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2051.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/52.svg',
-    sound: 'sounds/Lesson04/L4 52.wav',
+    text: 'غَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2052.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/53.svg',
-    sound: 'sounds/Lesson04/L4 53.wav',
+    text: 'غُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2053.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/54.svg',
-    sound: 'sounds/Lesson04/L4 54.wav',
+    text: 'غِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2054.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/55.svg',
-    sound: 'sounds/Lesson04/L4 55.wav',
+    text: 'فَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2055.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/56.svg',
-    sound: 'sounds/Lesson04/L4 56.wav',
+    text: 'فُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2056.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/57.svg',
-    sound: 'sounds/Lesson04/L4 57.wav',
+    text: 'فِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2057.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/58.svg',
-    sound: 'sounds/Lesson04/L4 58.wav',
+    text: 'قَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2058.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/59.svg',
-    sound: 'sounds/Lesson04/L4 59.wav',
+    text: 'قُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2059.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/60.svg',
-    sound: 'sounds/Lesson04/L4 60.wav',
+    text: 'قِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2060.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/61.svg',
-    sound: 'sounds/Lesson04/L4 61.wav',
+    text: 'كَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2061.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/62.svg',
-    sound: 'sounds/Lesson04/L4 62.wav',
+    text: 'كُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2062.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/63.svg',
-    sound: 'sounds/Lesson04/L4 63.wav',
+    text: 'كِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2063.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/64.svg',
-    sound: 'sounds/Lesson04/L4 64.wav',
+    text: 'مَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2067.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/65.svg',
-    sound: 'sounds/Lesson04/L4 65.wav',
+    text: 'مُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2068.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/66.svg',
-    sound: 'sounds/Lesson04/L4 66.wav',
+    text: 'مِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2069.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/67.svg',
-    sound: 'sounds/Lesson04/L4 67.wav',
+    text: 'نَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2070.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/68.svg',
-    sound: 'sounds/Lesson04/L4 68.wav',
+    text: 'نُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2071.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/69.svg',
-    sound: 'sounds/Lesson04/L4 69.wav',
+    text: 'نِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2072.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/70.svg',
-    sound: 'sounds/Lesson04/L4 70.wav',
+    text: 'وَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2073.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/71.svg',
-    sound: 'sounds/Lesson04/L4 71.wav',
+    text: 'وُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2074.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/72.svg',
-    sound: 'sounds/Lesson04/L4 72.wav',
+    text: 'وِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2075.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/73.svg',
-    sound: 'sounds/Lesson04/L4 73.wav',
+    text: 'هَا',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2076.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/74.svg',
-    sound: 'sounds/Lesson04/L4 74.wav',
+    text: 'هُو',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2077.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
   SubListModel(
-    text: 'assets/text/lesson9/75.svg',
-    sound: 'sounds/Lesson04/L4 75.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/76.svg',
-    sound: 'sounds/Lesson04/L4 76.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/77.svg',
-    sound: 'sounds/Lesson04/L4 77.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/78.svg',
-    sound: 'sounds/Lesson04/L4 78.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/79.svg',
-    sound: 'sounds/Lesson04/L4 79.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/80.svg',
-    sound: 'sounds/Lesson04/L4 80.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/81.svg',
-    sound: 'sounds/Lesson04/L4 81.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/82.svg',
-    sound: 'sounds/Lesson04/L4 82.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/83.svg',
-    sound: 'sounds/Lesson04/L4 83.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/84.svg',
-    sound: 'sounds/Lesson04/L4 84.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/85.svg',
-    sound: 'sounds/Lesson04/L4 85.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/86.svg',
-    sound: 'sounds/Lesson04/L4 86.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/87.svg',
-    sound: 'sounds/Lesson04/L4 87.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/88.svg',
-    sound: 'sounds/Lesson04/L4 88.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/89.svg',
-    sound: 'sounds/Lesson04/L4 89.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/90.svg',
-    sound: 'sounds/Lesson04/L4 90.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/91.svg',
-    sound: 'sounds/Lesson04/L4 91.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/92.svg',
-    sound: 'sounds/Lesson04/L4 92.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/93.svg',
-    sound: 'sounds/Lesson04/L4 93.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/94.svg',
-    sound: 'sounds/Lesson04/L4 94.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/95.svg',
-    sound: 'sounds/Lesson04/L4 95.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/96.svg',
-    sound: 'sounds/Lesson04/L4 96.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/97.svg',
-    sound: 'sounds/Lesson04/L4 97.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/98.svg',
-    sound: 'sounds/Lesson04/L4 98.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/99.svg',
-    sound: 'sounds/Lesson04/L4 99.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/100.svg',
-    sound: 'sounds/Lesson04/L4 100.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/101.svg',
-    sound: 'sounds/Lesson04/L4 101.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/102.svg',
-    sound: 'sounds/Lesson04/L4 102.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/103.svg',
-    sound: 'sounds/Lesson04/L4 103.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/104.svg',
-    sound: 'sounds/Lesson04/L4 104.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/105.svg',
-    sound: 'sounds/Lesson04/L4 105.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/106.svg',
-    sound: 'sounds/Lesson04/L4 106.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/107.svg',
-    sound: 'sounds/Lesson04/L4 107.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/108.svg',
-    sound: 'sounds/Lesson04/L4 108.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/109.svg',
-    sound: 'sounds/Lesson04/L4 109.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/110.svg',
-    sound: 'sounds/Lesson04/L4 110.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/111.svg',
-    sound: 'sounds/Lesson04/L4 111.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/112.svg',
-    sound: 'sounds/Lesson04/L4 112.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/113.svg',
-    sound: 'sounds/Lesson04/L4 113.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/114.svg',
-    sound: 'sounds/Lesson04/L4 114.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/115.svg',
-    sound: 'sounds/Lesson04/L4 115.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/116.svg',
-    sound: 'sounds/Lesson04/L4 116.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/117.svg',
-    sound: 'sounds/Lesson04/L4 117.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/118.svg',
-    sound: 'sounds/Lesson04/L4 118.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/119.svg',
-    sound: 'sounds/Lesson04/L4 119.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/120.svg',
-    sound: 'sounds/Lesson04/L4 120.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/121.svg',
-    sound: 'sounds/Lesson04/L4 121.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/122.svg',
-    sound: 'sounds/Lesson04/L4 122.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/123.svg',
-    sound: 'sounds/Lesson04/L4 123.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/124.svg',
-    sound: 'sounds/Lesson04/L4 124.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/125.svg',
-    sound: 'sounds/Lesson04/L4 125.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/126.svg',
-    sound: 'sounds/Lesson04/L4 126.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/127.svg',
-    sound: 'sounds/Lesson04/L4 127.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/128.svg',
-    sound: 'sounds/Lesson04/L4 128.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/129.svg',
-    sound: 'sounds/Lesson04/L4 129.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/130.svg',
-    sound: 'sounds/Lesson04/L4 130.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/131.svg',
-    sound: 'sounds/Lesson04/L4 131.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/132.svg',
-    sound: 'sounds/Lesson04/L4 132.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/133.svg',
-    sound: 'sounds/Lesson04/L4 133.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/134.svg',
-    sound: 'sounds/Lesson04/L4 134.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/135.svg',
-    sound: 'sounds/Lesson04/L4 135.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/136.svg',
-    sound: 'sounds/Lesson04/L4 136.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/137.svg',
-    sound: 'sounds/Lesson04/L4 137.wav',
-  ),
-  SubListModel(
-    text: 'assets/text/lesson9/138.svg',
-    sound: 'sounds/Lesson04/L4 138.wav',
+    text: 'هِى',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound9%2FL9%2078.mp3?alt=media&token=de2a961d-3bc1-4a0d-957b-90ad5c03347d',
   ),
 ];

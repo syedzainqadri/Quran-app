@@ -4,7 +4,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:quranapp/Utilities/constants.dart';
 
 // ignore: must_be_immutable
-class CustomWordCard extends StatelessWidget {
+class CustomWordCard extends StatefulWidget {
   CustomWordCard(
       {@required this.word,
       // this.subWord,
@@ -17,6 +17,12 @@ class CustomWordCard extends StatelessWidget {
   // final String subWord;
   final bool isPlaySound;
   final String soundPath;
+
+  @override
+  State<CustomWordCard> createState() => _CustomWordCardState();
+}
+
+class _CustomWordCardState extends State<CustomWordCard> {
   // final audioPlayer = AudioCache();
   @override
   Widget build(BuildContext context) {
@@ -32,8 +38,8 @@ class CustomWordCard extends StatelessWidget {
 
     return GestureDetector(
       onTap: () {
-        if (soundPath != '' && isPlaySound)
-          audio.play(soundPath);
+        if (widget.soundPath != '' && widget.isPlaySound)
+          audio.play(widget.soundPath);
         // playSound(
         //   soundPath,
         // );
@@ -64,17 +70,20 @@ class CustomWordCard extends StatelessWidget {
                   child: Container(
                       width: 90,
                       height: 50,
-                      child: svg == null
+                      child: widget.svg == null
                           ? Center(
                               child: Text(
-                              word.toString(),
+                              widget.word.toString(),
                               style: TextStyle(
-                                  fontSize:
-                                      word.toString().length > 3 ? 28 : 34,
+                                  fontSize: widget.word.toString().length > 2
+                                      ? 28
+                                      : widget.word.toString().length > 4
+                                          ? 24
+                                          : 36,
                                   fontWeight: FontWeight.bold),
                             ))
                           : SvgPicture.network(
-                              svg,
+                              widget.svg,
                               placeholderBuilder: (context) => Center(
                                 child: Icon(Icons.image),
                               ),

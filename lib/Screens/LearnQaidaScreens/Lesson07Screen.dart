@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quranapp/Model/firebasefile.dart';
 import 'package:quranapp/Model/lesson.dart';
-import 'package:quranapp/Utilities/LessonsContentList/listLesson06.dart';
 import 'package:quranapp/Utilities/LessonsContentList/listLesson07.dart';
 import 'package:quranapp/Utilities/SliverWidgets.dart';
 import 'package:quranapp/Utilities/constants.dart';
@@ -20,10 +19,10 @@ class Lesson07Screen extends StatefulWidget {
   const Lesson07Screen({Key key, this.lessonModel}) : super(key: key);
 
   @override
-  State<Lesson07Screen> createState() => _Lesson06ScreenState();
+  State<Lesson07Screen> createState() => _Lesson07ScreenState();
 }
 
-class _Lesson06ScreenState extends State<Lesson07Screen> {
+class _Lesson07ScreenState extends State<Lesson07Screen> {
   GlobalKey _one = GlobalKey();
   Future<List<FirebaseFile>> instructions;
 
@@ -294,8 +293,8 @@ class _Lesson06ScreenState extends State<Lesson07Screen> {
                           (context, index) {
                             return CustomWordCard(
                                 isPlaySound: true,
-                                word: "",
-                                svg: _mylist[index].text.toString(),
+                                word: _mylist[index].text.toString(),
+                                // svg: _mylist[index].text.toString(),
                                 soundPath: _mylist[index].sound);
                           },
                           childCount: _mylist.length,
