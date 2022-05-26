@@ -298,7 +298,8 @@ class _Lesson06ScreenState extends State<Lesson06Screen> {
                             return CustomWordCard(
                                 isPlaySound: true,
                                 word: _mylist[index].text.toString(),
-                                soundPath: _mylist[index].sound);
+                                soundPath:
+                                    'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%20${index + 1}.wav?alt=media&token=57588d29-e579-4d77-b454-4c8e95e50be2');
                           },
                           childCount: _mylist.length,
                         ),

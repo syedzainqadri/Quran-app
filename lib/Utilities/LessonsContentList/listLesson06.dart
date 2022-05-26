@@ -110,6 +110,96 @@ final List<SubListModel> listLesson06 = [
         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
   ),
   SubListModel(
+    text: 'اَحْ مَدُ ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'اَكْ بَرُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'اَشْ هَ دُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'اَحْمَدُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'اَكْبَرُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'اَشْهَدُ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'اَفْ لَ حَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'اَنْ عَ مَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'دَم دَمَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'اَفْلَحَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'اَنْعَمَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'دَم دَمَ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'بَنْ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'بِنْ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
+    text: 'بُنْ',
+    sub_text: '',
+    sound:
+        'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound6%2FL6%201.wav?alt=media&token=48076475-9d3a-403f-8d63-c7e407fc6479',
+  ),
+  SubListModel(
     text: 'بَنْ',
     sub_text: '',
     sound:

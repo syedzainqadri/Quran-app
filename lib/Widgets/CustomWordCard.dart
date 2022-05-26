@@ -71,8 +71,7 @@ class _CustomWordCardState extends State<CustomWordCard> {
                       width: 90,
                       height: 50,
                       child: widget.svg == null
-                          ? Center(
-                              child: Text(
+                          ? Text(
                               widget.word.toString(),
                               style: TextStyle(
                                   fontSize: widget.word.toString().length > 2
@@ -81,7 +80,7 @@ class _CustomWordCardState extends State<CustomWordCard> {
                                           ? 24
                                           : 36,
                                   fontWeight: FontWeight.bold),
-                            ))
+                            )
                           : SvgPicture.network(
                               widget.svg,
                               placeholderBuilder: (context) => Center(

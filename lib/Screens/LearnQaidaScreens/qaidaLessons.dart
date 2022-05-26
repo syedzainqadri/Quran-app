@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:quranapp/Screens/LearnQaidaScreens/Lesson01Screen.dart';
 import 'package:quranapp/Screens/QuizScreens/quiz_screen.dart';
-import 'package:quranapp/Utilities/LessonsContentList/listLesson01.dart';
 import 'package:quranapp/Utilities/SliverWidgets.dart';
 import 'package:quranapp/Utilities/constants.dart';
 import 'package:quranapp/Utilities/listQaidaLesson.dart';
-import 'package:quranapp/Widgets/CustomLessonListTile.dart';
 
 class QaidaLessons extends StatefulWidget {
   @override
