@@ -74,11 +74,11 @@ class _CustomWordCardState extends State<CustomWordCard> {
                           ? Text(
                               widget.word.toString(),
                               style: TextStyle(
-                                  fontSize: widget.word.toString().length > 2
-                                      ? 28
-                                      : widget.word.toString().length > 4
-                                          ? 24
-                                          : 36,
+                                  fontSize: widget.word.toString().length < 5
+                                      ? 36
+                                      : widget.word.toString().length < 8
+                                          ? 26
+                                          : 20,
                                   fontWeight: FontWeight.bold),
                             )
                           : SvgPicture.network(
