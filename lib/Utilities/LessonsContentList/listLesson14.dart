@@ -272,7 +272,7 @@ final List<SubListModel> listLesson14 = [
         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound14%2F53.wav?alt=media&token=24e90c70-2833-4a7f-be46-785b2f644510',
   ),
   SubListModel(
-    text: 'سَحَابٌ ظُلُمٰتٌ',
+    text: 'سَحَابٌظُلُمٰتٌ',
     sound:
         'https://firebasestorage.googleapis.com/v0/b/shafique-academy.appspot.com/o/sound14%2F54.wav?alt=media&token=24e90c70-2833-4a7f-be46-785b2f644510',
   ),

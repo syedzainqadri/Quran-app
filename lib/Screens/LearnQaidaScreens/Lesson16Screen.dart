@@ -234,10 +234,10 @@ class _Lesson16ScreenState extends State<Lesson16Screen> {
                                   width: 310,
                                 ),
                                 Text(
-                                  'شديعنى شديد',
+                                  'سبق نمبر١٦',
                                   style: TextStyle(
                                       color: Colors.red,
-                                      fontSize: 18,
+                                      fontSize: 24,
                                       fontWeight: FontWeight.bold),
                                 )
                               ],

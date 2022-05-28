@@ -78,7 +78,9 @@ class _CustomWordCardState extends State<CustomWordCard> {
                                       ? 36
                                       : widget.word.toString().length < 8
                                           ? 26
-                                          : 20,
+                                          : widget.word.toString().length < 22
+                                              ? 20
+                                              : 16,
                                   fontWeight: FontWeight.bold),
                             )
                           : SvgPicture.network(

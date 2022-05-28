@@ -237,7 +237,7 @@ class _Lesson13ScreenState extends State<Lesson13Screen> {
                                   "نون ساكن اورتنوين قواعد",
                                   style: TextStyle(
                                       color: Colors.red,
-                                      fontSize: 18,
+                                      fontSize: 22,
                                       fontWeight: FontWeight.bold),
                                 )
                               ],

@@ -237,7 +237,7 @@ class _Lesson14ScreenState extends State<Lesson14Screen> {
                                   'اِخفاء',
                                   style: TextStyle(
                                       color: Colors.red,
-                                      fontSize: 18,
+                                      fontSize: 24,
                                       fontWeight: FontWeight.bold),
                                 )
                               ],

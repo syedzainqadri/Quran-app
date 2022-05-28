@@ -237,7 +237,7 @@ class _Lesson15ScreenState extends State<Lesson15Screen> {
                                   'شديعنى شديد',
                                   style: TextStyle(
                                       color: Colors.red,
-                                      fontSize: 18,
+                                      fontSize: 24,
                                       fontWeight: FontWeight.bold),
                                 )
                               ],

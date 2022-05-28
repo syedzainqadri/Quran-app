@@ -237,7 +237,7 @@ class _Lesson17ScreenState extends State<Lesson17Screen> {
                                   'ادْغام',
                                   style: TextStyle(
                                       color: Colors.red,
-                                      fontSize: 18,
+                                      fontSize: 28,
                                       fontWeight: FontWeight.bold),
                                 )
                               ],
@@ -260,10 +260,10 @@ class _Lesson17ScreenState extends State<Lesson17Screen> {
                         ),
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           // mainAxisExtent: 70,
-                          crossAxisCount: 3,
+                          crossAxisCount: 2,
                           mainAxisSpacing: 10,
                           crossAxisSpacing: 5,
-                          childAspectRatio: 1,
+                          childAspectRatio: 2,
                         ),
                       ),
                     ],
