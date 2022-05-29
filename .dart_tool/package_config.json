@@ -105,9 +105,9 @@
     },
     {
       "name": "ffi",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/ffi-1.2.1",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/ffi-2.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "file",
@@ -117,7 +117,7 @@
     },
     {
       "name": "firebase_core",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.17.0",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.17.1",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
@@ -135,37 +135,37 @@
     },
     {
       "name": "firebase_database",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-9.0.14",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database-9.0.15",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
     {
       "name": "firebase_database_platform_interface",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database_platform_interface-0.2.1+6",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database_platform_interface-0.2.1+7",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
     {
       "name": "firebase_database_web",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database_web-0.2.0+13",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_database_web-0.2.0+14",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
     {
       "name": "firebase_storage",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-10.2.16",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-10.2.17",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
     {
       "name": "firebase_storage_platform_interface",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_platform_interface-4.1.6",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_platform_interface-4.1.7",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
     {
       "name": "firebase_storage_web",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-3.2.15",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-3.2.16",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     },
@@ -303,7 +303,7 @@
     },
     {
       "name": "path_provider_linux",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.6",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.7",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -321,9 +321,9 @@
     },
     {
       "name": "path_provider_windows",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.0.6",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     },
     {
       "name": "pedantic",
@@ -447,7 +447,7 @@
     },
     {
       "name": "win32",
-      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.6.1",
+      "rootUri": "file:///C:/SRC/flutter/.pub-cache/hosted/pub.dartlang.org/win32-2.7.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -470,7 +470,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2022-05-26T08:03:57.309331Z",
+  "generated": "2022-05-28T22:20:03.632123Z",
   "generator": "pub",
   "generatorVersion": "2.17.1"
 }
